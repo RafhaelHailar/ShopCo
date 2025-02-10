@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "tailwindcss/preflight";
-@tailwind utilities;
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
@@ -33,6 +31,27 @@
   src: url("/fonts/Satoshi/Fonts/OTF/Satoshi-Bold.otf");
   font-weight: bold;
   font-size: normal;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url("/fonts/Satoshi/Fonts/OTF/Satoshi-Bold.otf");
+  font-weight: bold;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: IntegralCF;
+  src: url("/fonts/IntegralCF/Fontspring-DEMO-integralcf-regular.otf");
+  font-weight: bold;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: IntegralCF;
+  src: url("/fonts/IntegralCF/Fontspring-DEMO-integralcf-bold.otf");
+  font-weight: bold;
+  font-size: bold;
 }
 
 html,
