@@ -1,5 +1,6 @@
 import type { Route } from "./+types/page";
 import MarketingHeader from "./_components/marketing-header";
+import MarketingProductsOverview from "./_components/marketing-products-overview";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -19,8 +20,9 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <div className="">
+      <div>
         <MarketingHeader />
+        <MarketingProductsOverview />
       </div>
     </main>
   );
