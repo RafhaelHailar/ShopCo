@@ -65,12 +65,12 @@ export default function MarketingHeader() {
         </div>
       </nav>
       <div>
-        <div className="flex  px-6 lg:px-24 gap-12 flex-wrap xl:flex-nowrap">
-          <div className="xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-18 pb-26">
-            <h1 className="font-[IntegralCF] text-6xl lg:max-w-[600px]">
+        <div className="flex px-6 lg:px-24 gap-x-12 gap-y-2 lg:gap-y-12 flex-wrap xl:flex-nowrap">
+          <div className="xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
+            <h1 className="font-[IntegralCF] text-4xl lg:text-6xl lg:max-w-[600px]">
               FIND CLOTHES THAT MATCHES YOUR STYLE
             </h1>
-            <p className="text-gray-500 text-lg lg:max-w-[600px] xl:max-w-none w-full">
+            <p className="text-gray-500 text-sm lg:text-lg lg:max-w-[600px] w-full">
               Browse through our diverse range of meticulously crafted garments,
               designed to bring out your individuality and cater to your sense
               of style.
@@ -80,23 +80,35 @@ export default function MarketingHeader() {
                 Shop Now
               </button>
             </div>
-            <div className="flex h-18 lg:mt-12 gap-x-6 gap-y-8 xl:gap-x-8 flex-wrap xl:flex-nowrap justify-center">
-              <div className="w-full max-w-5/12 xl:max-w-[180px] 2xl:max-w-[170px] shadow-[2px_0_0_0_#e5e7eb] flex items-center justify-center 2xl:justify-start">
+            <div className="flex h-18 lg:mt-12 gap-x-5 lg:gap-x-26 gap-y-4 lg:gap-y-8 xl:gap-x-11 justify-center xl:justify-start flex-wrap xl:flex-nowrap">
+              <div className="flex items-center">
                 <div>
-                  <h3 className="text-4xl font-bold">200+</h3>
-                  <p className="text-gray-500">International Brands</p>
+                  <h3 className="text-2xl lg:text-4xl font-bold">200+</h3>
+                  <p className="text-sm lg:text-md text-gray-500">
+                    International Brands
+                  </p>
                 </div>
               </div>
-              <div className="w-full max-w-5/12 xl:max-w-[180px] xl:shadow-[2px_0_0_0_#e5e7eb] flex items-center justify-center xl:justify-start">
+              <div className="max-w-0.5 w-full">
+                <div className="h-full bg-gray-200 w-full"></div>
+              </div>
+              <div className="flex items-center">
                 <div>
-                  <h3 className="text-4xl font-bold">2,000 +</h3>
-                  <p className="text-gray-500">High-Quality Products</p>
+                  <h3 className="text-2xl lg:text-4xl font-bold">2,000 +</h3>
+                  <p className="text-sm lg:text-md text-gray-500">
+                    High-Quality Products
+                  </p>
                 </div>
               </div>
-              <div className="w-full xl:max-w-[180px] flex items-center justify-center xl:justify-start">
+              <div className="max-w-0.5 w-full hidden xl:block">
+                <div className="h-full bg-gray-200 w-full"></div>
+              </div>
+              <div className="flex items-center">
                 <div className="">
-                  <h3 className="text-4xl font-bold">30,000 +</h3>
-                  <p className="text-gray-500">Happy Customers</p>
+                  <h3 className="text-2xl lg:text-4xl font-bold">30,000 +</h3>
+                  <p className="text-sm lg:text-md text-gray-500">
+                    Happy Customers
+                  </p>
                 </div>
               </div>
             </div>
@@ -106,6 +118,7 @@ export default function MarketingHeader() {
           </div>
         </div>
       </div>
+      <div className="bg-black text-white px-6 lg:px-24"></div>
     </section>
   );
 }
