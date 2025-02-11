@@ -39,6 +39,7 @@ function ProductCategory({ category, items }: ProductCategoryProps) {
           const fullStarTotal = Math.floor(rating);
           const haveHalfStar = fullStarTotal % rating >= 0.5;
 
+          const price = item.price - item.price * item.discount;
           return (
             <SwiperSlide key={i}>
               <div className="w-full relative flex items-center justify-center">
@@ -62,8 +63,20 @@ function ProductCategory({ category, items }: ProductCategoryProps) {
                     <i className="not-italic text-gray-500">/5</i>
                   </p>
                 </div>
-                <div>
-                  <p className="font-bold text-lg">${item.price}</p>
+                <div className="flex gap-x-2">
+                  <p className="font-bold text-lg">${price}</p>
+                  {item.discount > 0 ? (
+                    <>
+                      <p className="line-through text-gray-400 font-bold text-lg">
+                        ${item.price}
+                      </p>
+                      <p className="bg-rose-100 text-rose-500 font-medium text-xs flex justify-center items-center rounded-2xl px-3">
+                        -{item.discount * 100}%
+                      </p>
+                    </>
+                  ) : (
+                    <></>
+                  )}
                 </div>
               </div>
             </SwiperSlide>
