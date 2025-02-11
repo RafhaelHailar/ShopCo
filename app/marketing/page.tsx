@@ -19,7 +19,7 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <div className="px-6 lg:px-24">
+      <div className="">
         <MarketingHeader />
       </div>
     </main>

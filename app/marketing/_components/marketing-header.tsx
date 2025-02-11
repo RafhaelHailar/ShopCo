@@ -5,8 +5,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function MarketingHeader() {
   return (
-    <section>
-      <nav className="py-2 lg:py-4 flex justify-between items-center">
+    <section className="bg-stone-100">
+      <nav className="py-2 lg:py-4 flex justify-between items-center px-6 lg:px-24 bg-white">
         <div className="flex items-center gap-x-10">
           <ul className="flex items-center gap-x-6">
             <li className="block xl:hidden">
@@ -64,6 +64,48 @@ export default function MarketingHeader() {
           </ul>
         </div>
       </nav>
+      <div>
+        <div className="flex  px-6 lg:px-24 gap-12 flex-wrap xl:flex-nowrap">
+          <div className="xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-18 pb-26">
+            <h1 className="font-[IntegralCF] text-6xl lg:max-w-[600px]">
+              FIND CLOTHES THAT MATCHES YOUR STYLE
+            </h1>
+            <p className="text-gray-500 text-lg lg:max-w-[600px] xl:max-w-none w-full">
+              Browse through our diverse range of meticulously crafted garments,
+              designed to bring out your individuality and cater to your sense
+              of style.
+            </p>
+            <div>
+              <button className="min-w-full xl:min-w-0 bg-black text-white px-16 cursor-pointer py-3 rounded-4xl">
+                Shop Now
+              </button>
+            </div>
+            <div className="flex h-18 lg:mt-12 gap-x-6 gap-y-8 xl:gap-x-8 flex-wrap xl:flex-nowrap justify-center">
+              <div className="w-full max-w-5/12 xl:max-w-[180px] 2xl:max-w-[170px] shadow-[2px_0_0_0_#e5e7eb] flex items-center justify-center 2xl:justify-start">
+                <div>
+                  <h3 className="text-4xl font-bold">200+</h3>
+                  <p className="text-gray-500">International Brands</p>
+                </div>
+              </div>
+              <div className="w-full max-w-5/12 xl:max-w-[180px] xl:shadow-[2px_0_0_0_#e5e7eb] flex items-center justify-center xl:justify-start">
+                <div>
+                  <h3 className="text-4xl font-bold">2,000 +</h3>
+                  <p className="text-gray-500">High-Quality Products</p>
+                </div>
+              </div>
+              <div className="w-full xl:max-w-[180px] flex items-center justify-center xl:justify-start">
+                <div className="">
+                  <h3 className="text-4xl font-bold">30,000 +</h3>
+                  <p className="text-gray-500">Happy Customers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full flex min-h-[800px] xl:min-h-0">
+            <div className="w-full bg-gray-500 h-full"></div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
