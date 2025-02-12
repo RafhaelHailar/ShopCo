@@ -2,6 +2,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { FaStar, FaStarHalf } from "react-icons/fa";
 import TShirtWithTapeDetailsImg from "/images/t-shirt-with-tape-details.jpg";
+import CasualStyleImg from "/images/casual-style.jpg";
+import FormalStyleImg from "/images/formal-style.jpg";
+import GymStyleImg from "/images/gym-style.jpg";
+import PartyStyleImg from "/images/party-style.jpg";
 
 interface Product {
   id: number;
@@ -19,7 +23,7 @@ interface ProductCategoryProps {
 
 function ProductCategory({ category, items }: ProductCategoryProps) {
   return (
-    <div className="px-6 xl:px-24">
+    <div>
       <div className="mb-10 lg:mb-18">
         <h2 className="text-center text-3xl lg:text-5xl">
           {category.toUpperCase()}
@@ -138,7 +142,7 @@ export default function MarketingProductsOverview() {
     },
   ];
   return (
-    <section className="">
+    <section className="px-6 xl:px-24">
       <div className="py-14 lg:py-24 flex flex-col gap-y-8 xl:gap-y-12">
         <ProductCategory category="new arrivals" items={newArrivalsData} />
         <div className="xl:px-24">
@@ -146,8 +150,45 @@ export default function MarketingProductsOverview() {
         </div>
         <ProductCategory category="top selling" items={newArrivalsData} />
       </div>
-      <div>
-        <h2>BROWSE BY DRESS STYLE</h2>
+      <div className="px-16 bg-zinc-100 py-18">
+        <div className="mb-16">
+          <h2 className="text-center text-5xl">BROWSE BY DRESS STYLE</h2>
+        </div>
+        <div className="grid grid-cols-5 gap-4 h-[600px]">
+          <div className="col-span-2 rounded-2xl relative overflow-hidden">
+            <img
+              src={CasualStyleImg}
+              className="absolute top-10 -left-5 scale-200"
+            />
+            <p className="text-black absolute top-10 left-10 text-4xl font-bold">
+              Casual
+            </p>
+          </div>
+          <div className="col-span-3 rounded-2xl relative overflow-hidden">
+            <img
+              src={FormalStyleImg}
+              className="absolute top-20 left-80 scale-200"
+            />
+            <p className="text-black absolute top-10 left-10 text-4xl font-bold">
+              Formal
+            </p>
+          </div>
+          <div className="col-span-3 bg-white rounded-2xl relative overflow-hidden">
+            <img
+              src={PartyStyleImg}
+              className="absolute scale-110 -top-35 left-25"
+            />
+            <p className="text-black absolute top-10 left-10 text-4xl font-bold">
+              Party
+            </p>
+          </div>
+          <div className="col-span-2 bg-white rounded-2xl relative overflow-hidden">
+            <img src={GymStyleImg} className="absolute -top-35 left-27" />
+            <p className="text-black absolute top-10 left-10 text-4xl font-bold">
+              Gym
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
