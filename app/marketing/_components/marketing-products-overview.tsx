@@ -18,17 +18,26 @@ interface ProductCategoryProps {
 }
 
 function ProductCategory({ category, items }: ProductCategoryProps) {
-  console.log(items.length);
   return (
-    <div className="xl:px-24">
-      <div className="mb-18">
-        <h2 className="text-center font-[IntegralCF] text-5xl">
+    <div className="px-6 xl:px-24">
+      <div className="mb-10 lg:mb-18">
+        <h2 className="text-center font-[IntegralCF] text-3xl lg:text-5xl">
           {category.toUpperCase()}
         </h2>
       </div>
       <Swiper
         spaceBetween={10}
-        slidesPerView={4}
+        slidesPerView={2}
+        breakpoints={{
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
@@ -40,17 +49,18 @@ function ProductCategory({ category, items }: ProductCategoryProps) {
           const haveHalfStar = fullStarTotal % rating >= 0.5;
 
           const price = item.price - item.price * item.discount;
+
           return (
-            <SwiperSlide key={i}>
+            <SwiperSlide key={item.id}>
               <div className="w-full relative flex items-center justify-center">
                 <img src={item.image} className="w-full" />
               </div>
               <div className="flex flex-col gap-y-1 mt-4">
-                <h5 className="font-bold text-lg">{item.name}</h5>
+                <h5 className="font-bold text-sm lg:text-lg">{item.name}</h5>
                 <div className="flex items-center gap-x-1">
                   <div className="flex items-center">
-                    {new Array(fullStarTotal).fill(null).map(() => (
-                      <FaStar className="text-amber-400" />
+                    {new Array(fullStarTotal).fill(null).map((_, i) => (
+                      <FaStar key={i} className="text-amber-400" />
                     ))}
                     {haveHalfStar ? (
                       <FaStarHalf className="text-amber-400" />
@@ -84,7 +94,7 @@ function ProductCategory({ category, items }: ProductCategoryProps) {
         })}
       </Swiper>
       <div className="flex justify-center">
-        <button className="mt-8 px-18 border border-gray-200 cursor-pointer rounded-3xl py-2 font-bold">
+        <button className="w-full lg:w-auto mt-8 px-18 border border-gray-200 cursor-pointer rounded-3xl py-2 font-bold">
           View All
         </button>
       </div>
@@ -128,7 +138,7 @@ export default function MarketingProductsOverview() {
     },
   ];
   return (
-    <section className="py-24 flex flex-col gap-y-12">
+    <section className="py-14 lg:py-24 flex flex-col gap-y-8 xl:gap-y-12">
       <ProductCategory category="new arrivals" items={newArrivalsData} />
       <div className="xl:px-24">
         <div className="w-full h-0.5 bg-gray-200"></div>
