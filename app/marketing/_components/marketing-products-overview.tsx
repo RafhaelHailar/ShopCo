@@ -21,7 +21,7 @@ function ProductCategory({ category, items }: ProductCategoryProps) {
   return (
     <div className="px-6 xl:px-24">
       <div className="mb-10 lg:mb-18">
-        <h2 className="text-center font-[IntegralCF] text-3xl lg:text-5xl">
+        <h2 className="text-center text-3xl lg:text-5xl">
           {category.toUpperCase()}
         </h2>
       </div>
@@ -138,12 +138,17 @@ export default function MarketingProductsOverview() {
     },
   ];
   return (
-    <section className="py-14 lg:py-24 flex flex-col gap-y-8 xl:gap-y-12">
-      <ProductCategory category="new arrivals" items={newArrivalsData} />
-      <div className="xl:px-24">
-        <div className="w-full h-0.5 bg-gray-200"></div>
+    <section className="">
+      <div className="py-14 lg:py-24 flex flex-col gap-y-8 xl:gap-y-12">
+        <ProductCategory category="new arrivals" items={newArrivalsData} />
+        <div className="xl:px-24">
+          <div className="w-full h-0.5 bg-gray-200"></div>
+        </div>
+        <ProductCategory category="top selling" items={newArrivalsData} />
       </div>
-      <ProductCategory category="top selling" items={newArrivalsData} />
+      <div>
+        <h2>BROWSE BY DRESS STYLE</h2>
+      </div>
     </section>
   );
 }

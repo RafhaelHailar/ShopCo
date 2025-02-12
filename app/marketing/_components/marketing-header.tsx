@@ -20,7 +20,7 @@ export default function MarketingHeader() {
               </a>
             </li>
             <li>
-              <a href="#" className="font-[IntegralCF] font-bold text-3xl">
+              <a href="#" className="font-bold text-3xl">
                 SHOP.CO
               </a>
               <div className="h-1"></div>
@@ -72,7 +72,7 @@ export default function MarketingHeader() {
       <div>
         <div className="flex xl:px-24 gap-x-12 flex-wrap xl:flex-nowrap">
           <div className="px-6 lg:px-24 xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
-            <h1 className="font-[IntegralCF] text-4xl lg:text-6xl lg:max-w-[600px]">
+            <h1 className="text-4xl lg:text-6xl lg:max-w-[600px]">
               FIND CLOTHES THAT MATCHES YOUR STYLE
             </h1>
             <p className="text-gray-500 text-sm lg:text-lg lg:max-w-[600px] w-full">
