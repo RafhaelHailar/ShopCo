@@ -1,5 +1,125 @@
-import { useEffect, useState } from "react";
-import { Swiper, SwiperSlide, useSwiper, useSwiperSlide } from "swiper/react";
+import { useState } from "react";
+import { FaStar } from "react-icons/fa";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { IoIosCheckmarkCircle } from "react-icons/io";
+import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+
+interface Comment {
+  id: number;
+  comment: string;
+  username: string;
+  isVerified: boolean;
+}
+
+interface CommentBoxProps extends Comment {
+  index: number;
+  totalVisibleSlides: number;
+  totalComments: number;
+}
+
+const dummyComments: Comment[] = [
+  {
+    id: 0,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+  {
+    id: 1,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+  {
+    id: 2,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+  {
+    id: 3,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+  {
+    id: 4,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+  {
+    id: 5,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+  {
+    id: 6,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+  {
+    id: 7,
+    comment:
+      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    username: "Sarah M.",
+    isVerified: true,
+  },
+];
+
+function CommentBox({
+  index,
+  comment,
+  username,
+  isVerified,
+  totalVisibleSlides,
+  totalComments,
+}: CommentBoxProps) {
+  const swiper = useSwiper();
+  const leftPeripheralIndex = swiper.realIndex;
+  const rightPeripheralIndex =
+    (swiper.realIndex + totalVisibleSlides) % totalComments;
+  return (
+    <>
+      {index === leftPeripheralIndex || index === rightPeripheralIndex ? (
+        <div className="border border-gray-300 rounded-xl flex flex-col gap-y-2 px-10 py-8 blur-xs">
+          <div className="flex gap-x-1">
+            {new Array(5).fill(null).map((_, i) => (
+              <FaStar key={i} className="text-amber-400 text-xl" />
+            ))}
+          </div>
+          <div className="flex items-center gap-x-1">
+            <h5 className="font-bold text-xl">{username}</h5>
+            <IoIosCheckmarkCircle className="text-2xl text-green-600" />
+          </div>
+          <div className="text-gray-500">"{comment}”</div>
+        </div>
+      ) : (
+        <div className="border border-gray-200 rounded-xl flex flex-col gap-y-2 px-10 py-8">
+          <div className="flex gap-x-1">
+            {new Array(5).fill(null).map((_, i) => (
+              <FaStar key={i} className="text-amber-400 text-xl" />
+            ))}
+          </div>
+          <div className="flex items-center gap-x-1">
+            <h5 className="font-bold text-xl">{username}</h5>
+            <IoIosCheckmarkCircle className="text-2xl text-green-600" />
+          </div>
+          <div className="text-gray-500">"{comment}”</div>
+        </div>
+      )}
+    </>
+  );
+}
 
 function ReviewSlideCtrlButtons() {
   const swiper = useSwiper();
@@ -9,19 +129,13 @@ function ReviewSlideCtrlButtons() {
     swiper.slideTo(targetIndex);
   };
   return (
-    <div>
-      <div className="bg-black inline-block px-5 py-2">
-        <input
-          type="number"
-          className="bg-white"
-          onChange={(event) => setTargetIndex(Number(event.target.value))}
-        />
-        <button className="bg-white" onClick={slideTo}>
-          move
-        </button>
-      </div>
-      <button onClick={() => swiper.slidePrev()}>Prev Slide</button>
-      <button onClick={() => swiper.slideNext()}>Next Slide</button>
+    <div className="absolute -top-22 left-420 text-4xl flex gap-x-5">
+      <button className="cursor-pointer" onClick={() => swiper.slidePrev()}>
+        <GoArrowLeft />
+      </button>
+      <button className="cursor-pointer" onClick={() => swiper.slideNext()}>
+        <GoArrowRight />
+      </button>
     </div>
   );
 }
@@ -29,62 +143,44 @@ function ReviewSlideCtrlButtons() {
 export default function MarketingReview() {
   const [sWW, setSWW] = useState(0);
   return (
-    <section className="relative">
-      <div className="px-24 overflow-hidden">
-        <Swiper
-          className="relative -left-110 w-[200%]"
-          autoplay={true}
-          loop={true}
-          spaceBetween={10}
-          slidesPerView={6}
-          onSlideChange={(swiper) => {
-            setSWW(Math.random());
-          }}
-          onSwiper={(swiper) => console.log(swiper)}
-          init={false}
-          onInit={(swiper) => {
-            const swiperContainer = swiper.wrapperEl.parentElement;
-
-            if (swiperContainer) {
-              swiperContainer.style.overflow = "visible";
-            }
-          }}
-        >
-          <ReviewSlideCtrlButtons />
-          {new Array(12).fill(null).map((_, i) => {
-            function Example() {
-              const d = useSwiperSlide();
-              const s = useSwiper();
-
-              let leftPeripheralIndex = s.realIndex;
-              const rightPeripheralIndex = (s.realIndex + 4) % 12;
-              return (
-                <>
-                  {i === leftPeripheralIndex || i === rightPeripheralIndex ? (
-                    <div className="bg-red-500 h-[300px] flex justify-center items-center relative blur-md">
-                      <div className="text-black absolute top-0 left-0 font-bold">
-                        Active
-                        {Math.random()}
-                      </div>
-                      <div className="text-white font-bold text-2xl">{i}</div>
-                    </div>
-                  ) : (
-                    <div className="bg-green-500 absolute w-full h-[300px] flex justify-center items-center">
-                      <div className="text-white font-bold text-2xl">{i}</div>
-                    </div>
-                  )}
-                </>
-              );
-            }
-
-            return (
-              <SwiperSlide className="relative" key={i}>
-                <Example />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
+    <section className="relative px-24 overflow-hidden py-24">
+      <div className="mb-14">
+        <h2 className="text-5xl">OUR HAPPY CUSTOMERS</h2>
       </div>
+      <Swiper
+        className="relative -left-110 w-[200%]"
+        loop={true}
+        spaceBetween={22}
+        slidesPerView={6}
+        onSlideChange={() => {
+          setSWW(Math.random());
+        }}
+        init={false}
+        onInit={(swiper) => {
+          const swiperContainer = swiper.wrapperEl.parentElement;
+
+          if (swiperContainer) {
+            swiperContainer.style.overflow = "visible";
+          }
+        }}
+      >
+        <ReviewSlideCtrlButtons />
+        {dummyComments.map((data: Comment, i: number) => {
+          return (
+            <SwiperSlide className="relative" key={data.id}>
+              <CommentBox
+                id={data.id}
+                index={i}
+                comment={data.comment}
+                username={data.username}
+                isVerified={data.isVerified}
+                totalVisibleSlides={4}
+                totalComments={dummyComments.length}
+              />
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </section>
   );
 }
