@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { FaStar, FaStarHalf } from "react-icons/fa";
 import TShirtWithTapeDetailsImg from "/images/t-shirt-with-tape-details.jpg";
 import CasualStyleImg from "/images/casual-style.jpg";
