@@ -2,6 +2,7 @@ import type { Route } from "./+types/page";
 import MarketingHeader from "./_components/marketing-header";
 import MarketingProductsOverview from "./_components/marketing-products-overview";
 import MarketingReview from "./_components/marketing-review";
+import MarketingFooter from "./_components/marketing-footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -25,6 +26,7 @@ export default function Home() {
         <MarketingHeader />
         <MarketingProductsOverview />
         <MarketingReview />
+        <MarketingFooter />
       </div>
     </main>
   );
