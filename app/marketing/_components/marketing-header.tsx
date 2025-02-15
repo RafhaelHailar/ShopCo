@@ -1,74 +1,14 @@
-import { FiSearch } from "react-icons/fi";
-import { PiShoppingCartSimpleBold } from "react-icons/pi";
-import { LuCircleUserRound } from "react-icons/lu";
-import { RxHamburgerMenu } from "react-icons/rx";
 import VersaceLogo from "/partners/versace.svg";
 import ZaraLogo from "/partners/zara.svg";
 import GucciLogo from "/partners/gucci.svg";
 import PradaLogo from "/partners/prada.svg";
 import CalvinKleinLogo from "/partners/calvin-klein.svg";
+import Navbar from "components/navbar";
 
-export default function Header() {
+export default function MarketingHeader() {
   return (
     <section className="bg-stone-100">
-      <nav className="py-2 lg:py-4 flex justify-between items-center px-6 lg:px-24 bg-white">
-        <div className="flex items-center gap-x-10">
-          <ul className="flex items-center gap-x-6">
-            <li className="block xl:hidden">
-              <a href="#" className="text-3xl font-bold">
-                <RxHamburgerMenu />
-              </a>
-            </li>
-            <li>
-              <a href="#" className="font-bold text-3xl">
-                <h2>SHOP.CO</h2>
-              </a>
-              <div className="h-1"></div>
-            </li>
-          </ul>
-          <ul className="gap-x-6 items-center hidden xl:flex">
-            <li>
-              <a href="#">Shop</a>
-            </li>
-            <li>
-              <a href="#">On Sale</a>
-            </li>
-            <li>
-              <a href="#">New Arrivals</a>
-            </li>
-            <li>
-              <a href="#">Brands</a>
-            </li>
-          </ul>
-        </div>
-        <div className="flex items-center gap-x-6">
-          <div className="hidden lg:flex lg:w-96 items-center bg-gray-100 py-3 2xl:w-xl rounded-3xl px-4 gap-x-2">
-            <FiSearch className="text-gray-500" />
-            <input
-              type="text"
-              className="text-sm outline-none"
-              placeholder="Search for products..."
-            />
-          </div>
-          <ul className="flex gap-x-4 text-xl">
-            <li className="block lg:hidden">
-              <a href="#">
-                <FiSearch />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <PiShoppingCartSimpleBold />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <LuCircleUserRound />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
       <div>
         <div className="flex xl:px-24 gap-x-12 flex-wrap xl:flex-nowrap">
           <div className="px-6 lg:px-24 xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
