@@ -94,7 +94,7 @@ function CommentBox({
       {peripheralBlurred &&
       (index === leftPeripheralIndex || index === rightPeripheralIndex) ? (
         <div className="border border-gray-300 rounded-xl flex flex-col gap-y-2 px-10 py-8 blur-xs">
-          <div className="flex gap-x-1">
+          <div className="flex gap-x-1 xl:mb-2">
             {new Array(5).fill(null).map((_, i) => (
               <FaStar key={i} className="text-amber-400 text-xl" />
             ))}
@@ -107,7 +107,7 @@ function CommentBox({
         </div>
       ) : (
         <div className="border border-gray-200 rounded-xl flex flex-col gap-y-2 px-10 py-8">
-          <div className="flex gap-x-1">
+          <div className="flex gap-x-1 xl:mb-2">
             {new Array(5).fill(null).map((_, i) => (
               <FaStar key={i} className="text-amber-400 text-xl" />
             ))}

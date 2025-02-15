@@ -8,7 +8,7 @@ import GucciLogo from "/partners/gucci.svg";
 import PradaLogo from "/partners/prada.svg";
 import CalvinKleinLogo from "/partners/calvin-klein.svg";
 
-export default function MarketingHeader() {
+export default function Header() {
   return (
     <section className="bg-stone-100">
       <nav className="py-2 lg:py-4 flex justify-between items-center px-6 lg:px-24 bg-white">
@@ -21,7 +21,7 @@ export default function MarketingHeader() {
             </li>
             <li>
               <a href="#" className="font-bold text-3xl">
-                SHOP.CO
+                <h2>SHOP.CO</h2>
               </a>
               <div className="h-1"></div>
             </li>

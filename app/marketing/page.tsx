@@ -1,5 +1,5 @@
 import type { Route } from "./+types/page";
-import MarketingHeader from "./_components/marketing-header";
+import Header from "../../components/header";
 import MarketingProductsOverview from "./_components/marketing-products-overview";
 import MarketingReview from "./_components/marketing-review";
 import MarketingFooter from "./_components/marketing-footer";
@@ -23,7 +23,7 @@ export default function Home() {
         </p>
       </div>
       <div>
-        <MarketingHeader />
+        <Header />
         <MarketingProductsOverview />
         <MarketingReview />
         <MarketingFooter />
