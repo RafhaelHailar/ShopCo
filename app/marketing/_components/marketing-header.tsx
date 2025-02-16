@@ -8,7 +8,7 @@ export default function MarketingHeader() {
   return (
     <section className="bg-stone-100">
       <div>
-        <div className="flex xl:px-24 gap-x-12 flex-wrap xl:flex-nowrap">
+        <div className="flex flex-wrap 2xl:flex-nowrap">
           <div className="container-padding xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
             <h1 className="text-4xl lg:text-6xl lg:max-w-[600px]">
               FIND CLOTHES THAT MATCHES YOUR STYLE
@@ -56,7 +56,7 @@ export default function MarketingHeader() {
               </div>
             </div>
           </div>
-          <div className="w-full flex min-h-[800px] xl:min-h-0">
+          <div className="w-full flex min-h-[800px] 2xl:min-h-0">
             <div className="w-full bg-gray-500 h-full"></div>
           </div>
         </div>

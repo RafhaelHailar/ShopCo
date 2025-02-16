@@ -23,18 +23,18 @@ export default function Footer() {
               <TfiEmail className="text-gray-200 text-2xl" />
               <input
                 type="text"
-                className="w-full outline-none"
+                className="w-full outline-none text-sm lg:text-md"
                 placeholder="Enter your email address"
               />
             </div>
-            <button className="bg-white w-full rounded-4xl py-2 font-bold cursor-pointer">
+            <button className="text-sm lg:text-md bg-white w-full rounded-4xl py-2 font-bold cursor-pointer">
               Subscribe to Newsletter
             </button>
           </div>
         </div>
       </div>
       <div className="bg-gray-100 relative container-padding pt-38 pb-24">
-        <div className="grid grid-cols-5 gap-y-5 xl:gap-y-7">
+        <div className="grid grid-cols-5 gap-y-7">
           <div className="flex flex-col gap-y-5 xl:gap-y-7 col-span-5 xl:col-span-1">
             <h2 className="text-4xl -mb-2 xl:-mb-0">SHOP.CO</h2>
             <p className="text-md text-gray-500">
@@ -74,8 +74,10 @@ export default function Footer() {
           </div>
           <div className="flex justify-start xl:justify-end xl:col-span-1 col-span-2">
             <div className="flex flex-col gap-y-4 xl:gap-y-9">
-              <h5 className="text-lg xl:text-xl font-semibold">COMPANY</h5>
-              <ul className="flex flex-col gap-y-4 text-gray-600">
+              <h5 className="text-md lg:text-lg xl:text-xl font-semibold">
+                COMPANY
+              </h5>
+              <ul className="flex flex-col gap-y-4 text-gray-600 text-sm lg:text-md">
                 <li>
                   <a href="#">About</a>
                 </li>
@@ -93,8 +95,10 @@ export default function Footer() {
           </div>
           <div className="flex justify-center xl:justify-end xl:col-span-1 col-span-3">
             <div className="flex flex-col gap-y-4 xl:gap-y-9">
-              <h5 className="text-lg xl:text-xl font-semibold">HELP</h5>
-              <ul className="flex flex-col gap-y-4 text-gray-600">
+              <h5 className="text-md lg:text-lg xl:text-xl font-semibold">
+                HELP
+              </h5>
+              <ul className="flex flex-col gap-y-4 text-gray-600 text-sm lg:text-md">
                 <li>
                   <a href="#">Customer Support</a>
                 </li>
@@ -112,8 +116,10 @@ export default function Footer() {
           </div>
           <div className="flex justify-start xl:justify-end xl:col-span-1 col-span-2">
             <div className="flex flex-col gap-y-4 xl:gap-y-9">
-              <h5 className="text-lg xl:text-xl font-semibold">FAQ</h5>
-              <ul className="flex flex-col gap-y-4 text-gray-600">
+              <h5 className="text-md lg:text-lg xl:text-xl font-semibold">
+                FAQ
+              </h5>
+              <ul className="flex flex-col gap-y-4 text-gray-600 text-sm lg:text-md">
                 <li>
                   <a href="#">Account</a>
                 </li>
@@ -131,8 +137,10 @@ export default function Footer() {
           </div>
           <div className="flex justify-center xl:justify-end xl:col-span-1 col-span-3">
             <div className="flex flex-col gap-y-4 xl:gap-y-9">
-              <h5 className="text-lg xl:text-xl font-semibold">RESOURCES</h5>
-              <ul className="flex flex-col gap-y-4 text-gray-600">
+              <h5 className="text-md lg:text-lg xl:text-xl font-semibold">
+                RESOURCES
+              </h5>
+              <ul className="flex flex-col gap-y-4 text-gray-600 text-sm lg:text-md">
                 <li>
                   <a href="#">Free eBooks</a>
                 </li>
