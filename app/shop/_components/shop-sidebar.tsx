@@ -98,7 +98,7 @@ function SizePicker() {
         <h5 className="font-bold text-lg">Size</h5>
         <RiArrowUpSLine className="text-xl" />
       </div>
-      <ul className="flex flex-wrap gap-2 text-sm text-gray-600">
+      <ul className="flex flex-wrap gap-2 text-sm text-gray-600 pb-2">
         {sizes.map((size: string, i: number) => {
           const isAllowed = allowedSizes.includes(size);
           return (
@@ -305,7 +305,7 @@ function TypePicker() {
 
 export default function ShopSidebar() {
   return (
-    <div className="border border-gray-300 lg:w-64 rounded-2xl px-5 py-4 flex flex-col gap-y-4">
+    <div className="border border-gray-300 lg:w-64 rounded-2xl px-5 py-6 hidden xl:flex flex-col gap-y-4">
       <div className="flex items-center justify-between">
         <h5 className="font-bold text-lg">Filters</h5>
         <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
@@ -320,7 +320,9 @@ export default function ShopSidebar() {
       <SizePicker />
       <div className="h-0.25 bg-gray-200"></div>
       <StylePicker />
-      <div className="h-0.25 bg-gray-200"></div>
+      <button className="mt-4 bg-black text-white py-3 cursor-pointer rounded-4xl text-xs">
+        Apply Filter
+      </button>
     </div>
   );
 }
