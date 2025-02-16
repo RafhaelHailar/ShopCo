@@ -8,7 +8,7 @@ import PayPalLogo from "/logo/paypal.svg";
 import ApplePayLogo from "/logo/apple-pay.svg";
 import GooglePayLogo from "/logo/google-pay.svg";
 
-export default function MarketingFooter() {
+export default function Footer() {
   return (
     <footer>
       <div className="px-6 xl:px-24">

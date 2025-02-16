@@ -3,12 +3,10 @@ import ZaraLogo from "/partners/zara.svg";
 import GucciLogo from "/partners/gucci.svg";
 import PradaLogo from "/partners/prada.svg";
 import CalvinKleinLogo from "/partners/calvin-klein.svg";
-import Navbar from "components/navbar";
 
 export default function MarketingHeader() {
   return (
     <section className="bg-stone-100">
-      <Navbar />
       <div>
         <div className="flex xl:px-24 gap-x-12 flex-wrap xl:flex-nowrap">
           <div className="px-6 lg:px-24 xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
