@@ -1,10 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaStar, FaStarHalf } from "react-icons/fa";
-import TShirtWithTapeDetailsImg from "/images/t-shirt-with-tape-details.jpg";
-import CasualStyleImg from "/images/casual-style.jpg";
-import FormalStyleImg from "/images/formal-style.jpg";
-import GymStyleImg from "/images/gym-style.jpg";
-import PartyStyleImg from "/images/party-style.jpg";
 
 interface Product {
   id: number;
@@ -109,7 +104,7 @@ export default function MarketingProductsOverview() {
   const newArrivalsData: Product[] = [
     {
       id: 0,
-      image: TShirtWithTapeDetailsImg,
+      image: "/images/t-shirt-with-tape-details.jpg",
       name: "T-shirt with Tape Details",
       rating: 60,
       price: 120,
@@ -117,7 +112,7 @@ export default function MarketingProductsOverview() {
     },
     {
       id: 1,
-      image: TShirtWithTapeDetailsImg,
+      image: "/images/t-shirt-with-tape-details.jpg",
       name: "Skinny Fit Jeans",
       rating: 90,
       price: 120,
@@ -125,7 +120,7 @@ export default function MarketingProductsOverview() {
     },
     {
       id: 2,
-      image: TShirtWithTapeDetailsImg,
+      image: "/images/t-shirt-with-tape-details.jpg",
       name: "Checkered Shirt",
       rating: 90,
       price: 180,
@@ -133,7 +128,7 @@ export default function MarketingProductsOverview() {
     },
     {
       id: 3,
-      image: TShirtWithTapeDetailsImg,
+      image: "/images/t-shirt-with-tape-details.jpg",
       name: "Sleeve Striped T-shirt",
       rating: 90,
       price: 120,
@@ -158,7 +153,7 @@ export default function MarketingProductsOverview() {
         <div className="xl:grid xl:grid-cols-5 flex-col flex gap-4 xl:h-[600px]">
           <div className="w-full xl:h-auto h-[200px] col-span-2 rounded-2xl relative overflow-hidden">
             <img
-              src={CasualStyleImg}
+              src="/images/casual-style.jpg"
               className="absolute top-10 -left-5 scale-200"
             />
             <p className="text-black absolute top-5 left-8 xl:top-10 xl:left-10 text-2xl xl:text-4xl font-bold">
@@ -167,7 +162,7 @@ export default function MarketingProductsOverview() {
           </div>
           <div className="w-full xl:h-auto h-[200px] bg-white col-span-3 rounded-2xl relative overflow-hidden">
             <img
-              src={FormalStyleImg}
+              src="/images/formal-style.jpg"
               className="absolute top-15 xl:top-20 left-40 xl:left-80 scale-220 xl:scale-200"
             />
             <p className="text-black absolute top-5 left-8 xl:top-10 xl:left-10 text-2xl xl:text-4xl font-bold">
@@ -176,7 +171,7 @@ export default function MarketingProductsOverview() {
           </div>
           <div className="w-full xl:h-auto h-[200px] col-span-3 bg-white rounded-2xl relative overflow-hidden">
             <img
-              src={PartyStyleImg}
+              src="/images/party-style.jpg"
               className="absolute scale-110 -top-10 left-15 lg:-top-35 xl:left-25"
             />
             <p className="text-black absolute top-10 left-10 text-2xl xl:text-4xl font-bold">
@@ -185,7 +180,7 @@ export default function MarketingProductsOverview() {
           </div>
           <div className="w-full xl:h-auto h-[200px] col-span-2 bg-white rounded-2xl relative overflow-hidden">
             <img
-              src={GymStyleImg}
+              src="/images/gym-style.jpg"
               className="absolute -top-25 lg:-top-35 left-15 xl:left-27"
             />
             <p className="text-black absolute top-10 left-10 text-2xl xl:text-4xl font-bold">

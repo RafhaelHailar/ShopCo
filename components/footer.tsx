@@ -2,11 +2,6 @@ import { TfiEmail } from "react-icons/tfi";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
-import VisaLogo from "/logo/visa.svg";
-import MasterCardLogo from "/logo/mastercard.svg";
-import PayPalLogo from "/logo/paypal.svg";
-import ApplePayLogo from "/logo/apple-pay.svg";
-import GooglePayLogo from "/logo/google-pay.svg";
 
 export default function Footer() {
   return (
@@ -162,19 +157,19 @@ export default function Footer() {
           </div>
           <ul className="flex justify-center xl:justify-start gap-x-3 col-span-5 xl:col-span-1">
             <li className="bg-white flex justify-center items-center w-12 xl:w-15 h-8 rounded-md border border-gray-200">
-              <img src={VisaLogo} />
+              <img src="/logo/visa.svg" />
             </li>
             <li className="bg-white flex justify-center items-center w-12 xl:w-15 h-8 rounded-md border-gray-200">
-              <img src={MasterCardLogo} />
+              <img src="/logo/mastercard.svg" />
             </li>
             <li className="bg-white flex justify-center items-center w-12 xl:w-15 h-8 rounded-md border-gray-200">
-              <img src={PayPalLogo} />
+              <img src="/logo/paypal.svg" />
             </li>
             <li className="bg-white flex justify-center items-center w-12 xl:w-15 h-8 rounded-md border-gray-200">
-              <img src={ApplePayLogo} className="mt-2" />
+              <img src="/logo/apple-pay.svg" className="mt-2" />
             </li>
             <li className="bg-white flex justify-center items-center w-12 xl:w-15 h-8 rounded-md border-gray-200">
-              <img src={GooglePayLogo} />
+              <img src="/logo/google-pay.svg" />
             </li>
           </ul>
         </div>

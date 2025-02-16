@@ -1,9 +1,3 @@
-import VersaceLogo from "/partners/versace.svg";
-import ZaraLogo from "/partners/zara.svg";
-import GucciLogo from "/partners/gucci.svg";
-import PradaLogo from "/partners/prada.svg";
-import CalvinKleinLogo from "/partners/calvin-klein.svg";
-
 export default function MarketingHeader() {
   return (
     <section className="bg-stone-100">
@@ -63,19 +57,22 @@ export default function MarketingHeader() {
       </div>
       <div className="bg-black text-white container-padding flex lg:justify-between py-8 flex-wrap gap-y-10 gap-x-5 lg:gap-x-0 justify-center">
         <div className="flex items-center">
-          <img src={VersaceLogo} className="lg:w-[200px] w-[100px]" />
+          <img src="/partners/versace.svg" className="lg:w-[200px] w-[100px]" />
         </div>
         <div className="flex items-center">
-          <img src={ZaraLogo} className="lg:w-[110px] w-[55px]" />
+          <img src="/partners/zara.svg" className="lg:w-[110px] w-[55px]" />
         </div>
         <div className="flex items-center">
-          <img src={GucciLogo} className="lg:w-[210px] w-[110px]" />
+          <img src="/partners/gucci.svg" className="lg:w-[210px] w-[110px]" />
         </div>
         <div className="flex items-center">
-          <img src={PradaLogo} className="lg:w-[220px] w-[110px]" />
+          <img src="/partners/prada.svg" className="lg:w-[220px] w-[110px]" />
         </div>
         <div className="flex items-center">
-          <img src={CalvinKleinLogo} className="lg:w-[220px] w-[120px]" />
+          <img
+            src="/partners/calvin-klein.svg"
+            className="lg:w-[220px] w-[120px]"
+          />
         </div>
       </div>
     </section>
