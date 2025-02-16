@@ -54,8 +54,9 @@ function PriceRange() {
             />
             <label
               htmlFor="minPrice"
-              className="w-12 flex left-0 justify-center absolute top-4"
+              className="w-12 flex left-0 justify-center absolute"
               style={{
+                top: `${maxPrice - minPrice < 100 ? "-28px" : "16px"}`,
                 left: `calc(${minX}px - (2rem / 2))`,
               }}
             >
