@@ -141,7 +141,7 @@ export default function MarketingProductsOverview() {
     },
   ];
   return (
-    <section className="px-6 xl:px-24">
+    <section className="container-padding">
       <div className="py-14 lg:py-24 flex flex-col gap-y-8 xl:gap-y-12">
         <ProductCategory category="new arrivals" items={newArrivalsData} />
         <div className="xl:px-24">

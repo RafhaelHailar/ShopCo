@@ -11,8 +11,8 @@ import GooglePayLogo from "/logo/google-pay.svg";
 export default function Footer() {
   return (
     <footer>
-      <div className="px-6 xl:px-24">
-        <div className="bg-black px-6 xl:px-16 gap-y-8 flex flex-col xl:flex-row gap-x-12 py-8 xl:py-12 rounded-3xl -mb-25 items-center z-10 relative">
+      <div className="container-padding">
+        <div className="bg-black px-6 lg:px-16 gap-y-8 flex flex-col xl:flex-row gap-x-12 py-8 xl:py-12 rounded-3xl -mb-25 items-center z-10 relative">
           <div>
             <h2 className="text-white text-3xl xl:text-5xl">
               STAY UPTO DATE ABOUT OUR LATEST OFFERS
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 relative px-6 xl:px-24 pt-38 pb-24">
+      <div className="bg-gray-100 relative container-padding pt-38 pb-24">
         <div className="grid grid-cols-5 gap-y-5 xl:gap-y-7">
           <div className="flex flex-col gap-y-5 xl:gap-y-7 col-span-5 xl:col-span-1">
             <h2 className="text-4xl -mb-2 xl:-mb-0">SHOP.CO</h2>

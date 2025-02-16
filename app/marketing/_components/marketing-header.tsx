@@ -9,7 +9,7 @@ export default function MarketingHeader() {
     <section className="bg-stone-100">
       <div>
         <div className="flex xl:px-24 gap-x-12 flex-wrap xl:flex-nowrap">
-          <div className="px-6 lg:px-24 xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
+          <div className="container-padding xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
             <h1 className="text-4xl lg:text-6xl lg:max-w-[600px]">
               FIND CLOTHES THAT MATCHES YOUR STYLE
             </h1>
@@ -61,7 +61,7 @@ export default function MarketingHeader() {
           </div>
         </div>
       </div>
-      <div className="bg-black text-white px-6 lg:px-24 flex lg:justify-between py-8 flex-wrap gap-y-10 gap-x-5 lg:gap-x-0 justify-center">
+      <div className="bg-black text-white container-padding flex lg:justify-between py-8 flex-wrap gap-y-10 gap-x-5 lg:gap-x-0 justify-center">
         <div className="flex items-center">
           <img src={VersaceLogo} className="lg:w-[200px] w-[100px]" />
         </div>

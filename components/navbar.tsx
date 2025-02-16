@@ -14,7 +14,7 @@ export default function Navbar() {
           </a>
         </p>
       </div>
-      <div className="py-2 lg:py-4 flex justify-between items-center px-6 lg:px-24 bg-white">
+      <div className="py-2 lg:py-4 flex justify-between items-center container-padding bg-white">
         <div className="flex items-center gap-x-10">
           <ul className="flex items-center gap-x-6">
             <li className="block xl:hidden">
