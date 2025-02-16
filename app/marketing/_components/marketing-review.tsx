@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { IoIosCheckmarkCircle } from "react-icons/io";
@@ -13,7 +13,7 @@ interface Comment {
 
 interface CommentBoxProps extends Comment {
   index: number;
-  totalVisibleSlides: number;
+  nextBlurredComment: number;
   totalComments: number;
 }
 
@@ -81,17 +81,33 @@ function CommentBox({
   comment,
   username,
   isVerified,
-  totalVisibleSlides,
+  nextBlurredComment,
   totalComments,
 }: CommentBoxProps) {
   const swiper = useSwiper();
-  const peripheralBlurred = swiper.width >= 768;
+  const [screenWidth, setScreenWidth] = useState(swiper.width);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        setScreenWidth(window.innerWidth);
+      };
+      setScreenWidth(window.innerWidth);
+      window.addEventListener("resize", handleResize);
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+  }, []);
+
+  const isLargeScreen = screenWidth >= 1024;
   const leftPeripheralIndex = swiper.realIndex;
   const rightPeripheralIndex =
-    (swiper.realIndex + totalVisibleSlides) % totalComments;
+    ((swiper.realIndex + nextBlurredComment) % totalComments) -
+    Number(isLargeScreen && screenWidth < 1280);
   return (
     <>
-      {peripheralBlurred &&
+      {isLargeScreen &&
       (index === leftPeripheralIndex || index === rightPeripheralIndex) ? (
         <div className="border border-gray-300 rounded-xl flex flex-col gap-y-2 px-10 py-8 blur-xs">
           <div className="flex gap-x-1 xl:mb-2">
@@ -109,14 +125,14 @@ function CommentBox({
         <div className="border border-gray-200 rounded-xl flex flex-col gap-y-2 px-10 py-8">
           <div className="flex gap-x-1 xl:mb-2">
             {new Array(5).fill(null).map((_, i) => (
-              <FaStar key={i} className="text-amber-400 text-xl" />
+              <FaStar key={i} className="text-amber-400 lg:text-xl" />
             ))}
           </div>
           <div className="flex items-center gap-x-1">
-            <h5 className="font-bold text-xl">{username}</h5>
-            <IoIosCheckmarkCircle className="text-2xl text-green-600" />
+            <h5 className="font-bold lg:text-xl">{username}</h5>
+            <IoIosCheckmarkCircle className="text-xl lg:text-2xl text-green-600" />
           </div>
-          <div className="text-gray-500">"{comment}”</div>
+          <div className="text-gray-500 text-sm lg:text-md">"{comment}”</div>
         </div>
       )}
     </>
@@ -126,13 +142,8 @@ function CommentBox({
 function ReviewSlideCtrlButtons() {
   const swiper = useSwiper();
 
-  const [targetIndex, setTargetIndex] = useState(0);
-  const slideTo = () => {
-    swiper.slideTo(targetIndex);
-  };
-
   return (
-    <div className="absolute -top-12 lg:-top-12 xl:-top-24 right-0 xl:left-340 2xl:left-420 text-2xl xl:text-4xl flex gap-x-5">
+    <div className="absolute -top-12 xl:-top-24 right-0 lg:left-290 xl:left-340 2xl:left-420 text-2xl xl:text-4xl flex gap-x-5">
       <button className="cursor-pointer" onClick={() => swiper.slidePrev()}>
         <GoArrowLeft />
       </button>
@@ -146,12 +157,12 @@ function ReviewSlideCtrlButtons() {
 export default function MarketingReview() {
   const [sWW, setSWW] = useState(0);
   return (
-    <section className="relative px-6 xl:px-24 overflow-hidden py-12 xl:py-24">
+    <section className="relative container-padding overflow-hidden py-12 xl:py-24">
       <div className="mb-6 xl:mb-14 w-48 md:w-auto">
-        <h2 className="text-xl xl:text-5xl">OUR HAPPY CUSTOMERS</h2>
+        <h2 className="text-2xl xl:text-5xl">OUR HAPPY CUSTOMERS</h2>
       </div>
       <Swiper
-        className="relative xl:-left-90 2xl:-left-110 w-full xl:w-[200%]"
+        className="relative lg:-left-104 xl:-left-90 2xl:-left-110 w-full lg:w-[200%]"
         loop={true}
         spaceBetween={10}
         slidesPerView={1}
@@ -172,7 +183,7 @@ export default function MarketingReview() {
             spaceBetween: 22,
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 22,
           },
           1280: {
@@ -191,7 +202,7 @@ export default function MarketingReview() {
                 comment={data.comment}
                 username={data.username}
                 isVerified={data.isVerified}
-                totalVisibleSlides={4}
+                nextBlurredComment={4}
                 totalComments={dummyComments.length}
               />
             </SwiperSlide>
