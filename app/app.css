@@ -80,3 +80,47 @@ h2 {
   @apply px-6;
   @apply lg:px-24;
 }
+
+.min-max-slider {
+  @apply relative;
+  @apply flex;
+  @apply items-center;
+}
+
+.min-max-slider input[type="range"] {
+  @apply left-0;
+  @apply absolute;
+  @apply w-full;
+  @apply h-full;
+  @apply appearance-none;
+  @apply pointer-events-none;
+  @apply outline-none;
+  @apply bg-gray-200;
+  @apply rounded-4xl;
+}
+
+.min-max-slider input[type="range"]::-webkit-slider-thumb {
+  @apply appearance-none;
+  @apply bg-black;
+  @apply cursor-pointer;
+  @apply rounded-full;
+  @apply w-5;
+  @apply h-5;
+  @apply pointer-events-auto;
+}
+
+.min-max-slider input[type="range"]::-moz-range-thumb {
+  @apply appearance-none;
+  @apply bg-black;
+  @apply cursor-pointer;
+  @apply rounded-full;
+  @apply w-5;
+  @apply h-5;
+  @apply pointer-events-auto;
+}
+
+.min-max-slider div:first-child input[type="range"] {
+  @apply bg-none;
+  @apply z-1;
+  @apply h-0;
+}

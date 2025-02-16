@@ -1,5 +1,6 @@
 import type { Route } from "./+types/page";
 import { RiArrowRightSLine } from "react-icons/ri";
+import ShopSidebar from "./_components/shop-sidebar";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -26,6 +27,10 @@ export default function Home() {
             <a href="#">Casual</a>
           </li>
         </ul>
+        <div className="flex">
+          <ShopSidebar />
+          <div className="flex-1"></div>
+        </div>
       </div>
     </div>
   );
