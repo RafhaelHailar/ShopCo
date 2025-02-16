@@ -24,7 +24,61 @@ function toggleListAddRemove<T>(
   });
 }
 
-function SizeSelector() {
+interface SelectionLink {
+  name: string;
+  url: string;
+}
+
+function LinkSelectionList({ selections }: { selections: SelectionLink[] }) {
+  return (
+    <ul className="flex flex-col gap-y-3 text-gray-400">
+      {selections.map((selection: SelectionLink, i: number) => {
+        return (
+          <li key={i}>
+            <a href={selection.url}>
+              <div className="flex justify-between w-full items-center">
+                <p>{selection.name}</p>
+                <RiArrowRightSLine className="text-xl" />
+              </div>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
+function StylePicker() {
+  const links: SelectionLink[] = [
+    {
+      name: "Casual",
+      url: "#",
+    },
+    {
+      name: "Formal",
+      url: "#",
+    },
+    {
+      name: "Party",
+      url: "#",
+    },
+    {
+      name: "Gym",
+      url: "#",
+    },
+  ];
+  return (
+    <div className="flex flex-col gap-y-4">
+      <div className="flex justify-between items-center">
+        <h5 className="font-bold text-lg">Dress Style</h5>
+        <RiArrowUpSLine className="text-xl" />
+      </div>
+      <LinkSelectionList selections={links} />
+    </div>
+  );
+}
+
+function SizePicker() {
   const sizes = [
     "XX-Small",
     "X-Small",
@@ -39,31 +93,32 @@ function SizeSelector() {
   const [allowedSizes, setAllowedSizes] = useState<string[]>([]);
 
   return (
-    <div>
+    <div className="flex flex-col gap-y-4">
       <div className="flex justify-between items-center">
-        <h5 className="font-bold text-lg">Color</h5>
+        <h5 className="font-bold text-lg">Size</h5>
         <RiArrowUpSLine className="text-xl" />
       </div>
-      <div className="flex flex-wrap gap-2 text-sm text-gray-600">
+      <ul className="flex flex-wrap gap-2 text-sm text-gray-600">
         {sizes.map((size: string, i: number) => {
           const isAllowed = allowedSizes.includes(size);
           return (
-            <button
-              style={{
-                background: isAllowed ? "black" : "#f3f4f6",
-                color: isAllowed ? "white" : "#4a5565",
-              }}
-              key={i}
-              className="px-5 py-2 bg-gray-100 rounded-4xl cursor-pointer"
-              onClick={() => {
-                toggleListAddRemove(setAllowedSizes, size);
-              }}
-            >
-              {size}
-            </button>
+            <li key={i}>
+              <button
+                style={{
+                  background: isAllowed ? "black" : "#f3f4f6",
+                  color: isAllowed ? "white" : "#4a5565",
+                }}
+                className="px-5 py-2 bg-gray-100 rounded-4xl cursor-pointer"
+                onClick={() => {
+                  toggleListAddRemove(setAllowedSizes, size);
+                }}
+              >
+                {size}
+              </button>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 }
@@ -90,37 +145,38 @@ function ColorPicker() {
         <h5 className="font-bold text-lg">Color</h5>
         <RiArrowUpSLine className="text-xl" />
       </div>
-      <div className="flex flex-wrap w-full gap-2 justify-between pb-3">
+      <ul className="flex flex-wrap w-full gap-2 justify-between pb-3">
         {colors.map((color: string, i: number) => {
           const isAllowed = allowedColors.includes(color);
 
           return (
-            <button
-              key={i}
-              style={{
-                background: color,
-                borderColor: `rgba(0,0,0,0.05)`,
-                boxShadow: isAllowed ? `0 0 5px ${color}` : "",
-              }}
-              className="w-8 h-8 rounded-full cursor-pointer flex items-center justify-center border"
-              onClick={() => {
-                toggleListAddRemove(setAllowedColors, color);
-              }}
-            >
-              {isAllowed ? (
-                <IoMdCheckmark
-                  className="text-white text-lg"
-                  style={{
-                    color: color == "#FFFFFF" ? "black" : "white",
-                  }}
-                />
-              ) : (
-                <></>
-              )}
-            </button>
+            <li key={i}>
+              <button
+                style={{
+                  background: color,
+                  borderColor: `rgba(0,0,0,0.05)`,
+                  boxShadow: isAllowed ? `0 0 5px ${color}` : "",
+                }}
+                className="w-8 h-8 rounded-full cursor-pointer flex items-center justify-center border"
+                onClick={() => {
+                  toggleListAddRemove(setAllowedColors, color);
+                }}
+              >
+                {isAllowed ? (
+                  <IoMdCheckmark
+                    className="text-white text-lg"
+                    style={{
+                      color: color == "#FFFFFF" ? "black" : "white",
+                    }}
+                  />
+                ) : (
+                  <></>
+                )}
+              </button>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 }
@@ -221,6 +277,32 @@ function PriceRange() {
   );
 }
 
+function TypePicker() {
+  const types: SelectionLink[] = [
+    {
+      name: "T-shirts",
+      url: "#",
+    },
+    {
+      name: "Shorts",
+      url: "#",
+    },
+    {
+      name: "Shirts",
+      url: "#",
+    },
+    {
+      name: "Hoodie",
+      url: "#",
+    },
+    {
+      name: "Jeans",
+      url: "#",
+    },
+  ];
+  return <LinkSelectionList selections={types} />;
+}
+
 export default function ShopSidebar() {
   return (
     <div className="border border-gray-300 lg:w-64 rounded-2xl px-5 py-4 flex flex-col gap-y-4">
@@ -229,54 +311,15 @@ export default function ShopSidebar() {
         <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
       </div>
       <div className="h-0.25 bg-gray-200"></div>
-      <ul className="flex flex-col gap-y-3 text-gray-400">
-        <li>
-          <a href="#">
-            <div className="flex justify-between w-full items-center">
-              <p>T-shirts</p>
-              <RiArrowRightSLine className="text-xl" />
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div className="flex justify-between w-full items-center">
-              <p>Shorts</p>
-              <RiArrowRightSLine className="text-xl" />
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div className="flex justify-between w-full items-center">
-              <p>Shirts</p>
-              <RiArrowRightSLine className="text-xl" />
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div className="flex justify-between w-full items-center">
-              <p>Hoodie</p>
-              <RiArrowRightSLine className="text-xl" />
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div className="flex justify-between w-full items-center">
-              <p>Jeans</p>
-              <RiArrowRightSLine className="text-xl" />
-            </div>
-          </a>
-        </li>
-      </ul>
+      <TypePicker />
       <div className="h-0.25 bg-gray-200"></div>
       <PriceRange />
       <div className="h-0.25 bg-gray-200"></div>
       <ColorPicker />
       <div className="h-0.25 bg-gray-200"></div>
-      <SizeSelector />
+      <SizePicker />
+      <div className="h-0.25 bg-gray-200"></div>
+      <StylePicker />
       <div className="h-0.25 bg-gray-200"></div>
     </div>
   );
