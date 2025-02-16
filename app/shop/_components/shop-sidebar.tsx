@@ -1,6 +1,72 @@
 import { useEffect, useRef, useState } from "react";
 import { HiOutlineAdjustmentsVertical } from "react-icons/hi2";
 import { RiArrowRightSLine, RiArrowUpSLine } from "react-icons/ri";
+import { IoMdCheckmark } from "react-icons/io";
+
+function ColorPicker() {
+  const colors = [
+    "#00C12B",
+    "#F50606",
+    "#F5DD06",
+    "#F57906",
+    "#06CAF5",
+    "#063AF5",
+    "#7D06F5",
+    "#F506A4",
+    "#FFFFFF",
+    "#000000",
+  ];
+
+  const [allowedColors, setAllowedColors] = useState<string[]>([]);
+
+  return (
+    <div className="flex flex-col gap-y-6">
+      <div className="flex justify-between items-center">
+        <h5 className="font-bold text-lg">Color</h5>
+        <RiArrowUpSLine className="text-xl" />
+      </div>
+      <div className="flex flex-wrap w-full gap-2 justify-between">
+        {colors.map((color: string, i: number) => {
+          const isAllowed = allowedColors.includes(color);
+
+          return (
+            <button
+              key={i}
+              style={{
+                background: color,
+                borderColor: `rgba(0,0,0,0.05)`,
+                boxShadow: isAllowed ? `0 0 5px ${color}` : "",
+              }}
+              className="w-8 h-8 rounded-full cursor-pointer flex items-center justify-center border"
+              onClick={() => {
+                setAllowedColors((colors: string[]) => {
+                  const colorsSet = new Set(colors);
+                  if (colorsSet.has(color)) {
+                    colorsSet.delete(color);
+                  } else {
+                    colorsSet.add(color);
+                  }
+                  return [...colorsSet];
+                });
+              }}
+            >
+              {isAllowed ? (
+                <IoMdCheckmark
+                  className="text-white text-lg"
+                  style={{
+                    color: color == "#FFFFFF" ? "black" : "white",
+                  }}
+                />
+              ) : (
+                <></>
+              )}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 function PriceRange() {
   const minValue = 0;
@@ -150,6 +216,8 @@ export default function ShopSidebar() {
       </ul>
       <div className="h-0.25 bg-gray-200"></div>
       <PriceRange />
+      <div className="h-0.25 bg-gray-200"></div>
+      <ColorPicker />
       <div className="h-0.25 bg-gray-200"></div>
     </div>
   );

@@ -4,7 +4,7 @@ import ShopSidebar from "./_components/shop-sidebar";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
+    { title: "ShopCo" },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
