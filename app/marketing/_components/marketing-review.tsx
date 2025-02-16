@@ -35,15 +35,15 @@ const dummyComments: Comment[] = [
   {
     id: 2,
     comment:
-      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
-    username: "Sarah M.",
+      "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
+    username: "Alex K.",
     isVerified: true,
   },
   {
     id: 3,
     comment:
-      "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
-    username: "Sarah M.",
+      "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
+    username: "James L.",
     isVerified: true,
   },
   {
@@ -109,7 +109,7 @@ function CommentBox({
     <>
       {isLargeScreen &&
       (index === leftPeripheralIndex || index === rightPeripheralIndex) ? (
-        <div className="border border-gray-300 rounded-xl flex flex-col gap-y-2 px-10 py-8 blur-xs">
+        <div className="border border-gray-300 rounded-xl flex flex-col gap-y-2 px-10 py-8 blur-xs h-full">
           <div className="flex gap-x-1 xl:mb-2">
             {new Array(5).fill(null).map((_, i) => (
               <FaStar key={i} className="text-amber-400 text-xl" />
@@ -119,20 +119,20 @@ function CommentBox({
             <h5 className="font-bold text-xl">{username}</h5>
             <IoIosCheckmarkCircle className="text-2xl text-green-600" />
           </div>
-          <div className="text-gray-500">"{comment}”</div>
+          <div className="text-gray-600 text-md xl:text-lg">"{comment}”</div>
         </div>
       ) : (
-        <div className="border border-gray-200 rounded-xl flex flex-col gap-y-2 px-10 py-8">
-          <div className="flex gap-x-1 xl:mb-2">
+        <div className="border border-gray-200 rounded-xl flex flex-col gap-y-2 px-10 py-8 h-full">
+          <div className="flex gap-x-2 xl:mb-2">
             {new Array(5).fill(null).map((_, i) => (
-              <FaStar key={i} className="text-amber-400 lg:text-xl" />
+              <FaStar key={i} className="text-amber-400 text-lg lg:text-2xl" />
             ))}
           </div>
           <div className="flex items-center gap-x-1">
-            <h5 className="font-bold lg:text-xl">{username}</h5>
+            <h5 className="font-bold text-lg lg:text-xl">{username}</h5>
             <IoIosCheckmarkCircle className="text-xl lg:text-2xl text-green-600" />
           </div>
-          <div className="text-gray-500 text-sm lg:text-md">"{comment}”</div>
+          <div className="text-gray-600 text-md xl:text-lg">"{comment}”</div>
         </div>
       )}
     </>
@@ -162,7 +162,7 @@ export default function MarketingReview() {
         <h2 className="text-2xl xl:text-5xl">OUR HAPPY CUSTOMERS</h2>
       </div>
       <Swiper
-        className="relative lg:-left-104 xl:-left-90 2xl:-left-110 w-full lg:w-[200%]"
+        className="relative lg:-left-104 xl:-left-90 2xl:-left-110 w-full lg:w-[200%] h-auto md:h-[270px] lg:h-[260px] xl:h-[340px] 2xl:h-[280px]"
         loop={true}
         spaceBetween={10}
         slidesPerView={1}
