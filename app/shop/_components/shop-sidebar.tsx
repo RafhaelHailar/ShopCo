@@ -1,7 +1,72 @@
-import { useEffect, useRef, useState } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type Dispatch,
+  type SetStateAction,
+} from "react";
 import { HiOutlineAdjustmentsVertical } from "react-icons/hi2";
 import { RiArrowRightSLine, RiArrowUpSLine } from "react-icons/ri";
 import { IoMdCheckmark } from "react-icons/io";
+
+function toggleListAddRemove<T>(
+  setter: Dispatch<SetStateAction<T[]>>,
+  item: T
+) {
+  setter((items: T[]) => {
+    const itemsSet = new Set(items);
+    if (itemsSet.has(item)) {
+      itemsSet.delete(item);
+    } else {
+      itemsSet.add(item);
+    }
+    return [...itemsSet];
+  });
+}
+
+function SizeSelector() {
+  const sizes = [
+    "XX-Small",
+    "X-Small",
+    "Small",
+    "Medium",
+    "Large",
+    "X-Large",
+    "XX-Large",
+    "3X-Large",
+    "4X-Large",
+  ];
+  const [allowedSizes, setAllowedSizes] = useState<string[]>([]);
+
+  return (
+    <div>
+      <div className="flex justify-between items-center">
+        <h5 className="font-bold text-lg">Color</h5>
+        <RiArrowUpSLine className="text-xl" />
+      </div>
+      <div className="flex flex-wrap gap-2 text-sm text-gray-600">
+        {sizes.map((size: string, i: number) => {
+          const isAllowed = allowedSizes.includes(size);
+          return (
+            <button
+              style={{
+                background: isAllowed ? "black" : "#f3f4f6",
+                color: isAllowed ? "white" : "#4a5565",
+              }}
+              key={i}
+              className="px-5 py-2 bg-gray-100 rounded-4xl cursor-pointer"
+              onClick={() => {
+                toggleListAddRemove(setAllowedSizes, size);
+              }}
+            >
+              {size}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 function ColorPicker() {
   const colors = [
@@ -20,12 +85,12 @@ function ColorPicker() {
   const [allowedColors, setAllowedColors] = useState<string[]>([]);
 
   return (
-    <div className="flex flex-col gap-y-6">
+    <div className="flex flex-col gap-y-4">
       <div className="flex justify-between items-center">
         <h5 className="font-bold text-lg">Color</h5>
         <RiArrowUpSLine className="text-xl" />
       </div>
-      <div className="flex flex-wrap w-full gap-2 justify-between">
+      <div className="flex flex-wrap w-full gap-2 justify-between pb-3">
         {colors.map((color: string, i: number) => {
           const isAllowed = allowedColors.includes(color);
 
@@ -39,15 +104,7 @@ function ColorPicker() {
               }}
               className="w-8 h-8 rounded-full cursor-pointer flex items-center justify-center border"
               onClick={() => {
-                setAllowedColors((colors: string[]) => {
-                  const colorsSet = new Set(colors);
-                  if (colorsSet.has(color)) {
-                    colorsSet.delete(color);
-                  } else {
-                    colorsSet.add(color);
-                  }
-                  return [...colorsSet];
-                });
+                toggleListAddRemove(setAllowedColors, color);
               }}
             >
               {isAllowed ? (
@@ -166,7 +223,7 @@ function PriceRange() {
 
 export default function ShopSidebar() {
   return (
-    <div className="border lg:w-64 rounded-2xl px-5 py-4 flex flex-col gap-y-4">
+    <div className="border border-gray-300 lg:w-64 rounded-2xl px-5 py-4 flex flex-col gap-y-4">
       <div className="flex items-center justify-between">
         <h5 className="font-bold text-lg">Filters</h5>
         <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
@@ -218,6 +275,8 @@ export default function ShopSidebar() {
       <PriceRange />
       <div className="h-0.25 bg-gray-200"></div>
       <ColorPicker />
+      <div className="h-0.25 bg-gray-200"></div>
+      <SizeSelector />
       <div className="h-0.25 bg-gray-200"></div>
     </div>
   );
