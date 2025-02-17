@@ -39,7 +39,7 @@ function DropDownContainer({
   contentHeight: number;
   headerContentGap?: number;
 }) {
-  const [isActive, setIsActive] = useState<boolean>(false);
+  const [isActive, setIsActive] = useState<boolean>(true);
   return (
     <div
       className="flex flex-col"
@@ -119,8 +119,8 @@ function StylePicker() {
   return (
     <DropDownContainer
       category="Dress Style"
-      headerContentGap={0}
-      contentHeight={40}
+      headerContentGap={2}
+      contentHeight={36}
     >
       <LinkSelectionList selections={links} />
     </DropDownContainer>
@@ -142,8 +142,8 @@ function SizePicker() {
   const [allowedSizes, setAllowedSizes] = useState<string[]>([]);
 
   return (
-    <DropDownContainer category="Size" headerContentGap={2} contentHeight={60}>
-      <ul className="flex flex-wrap gap-2 text-sm text-gray-600 pb-2">
+    <DropDownContainer category="Size" headerContentGap={2} contentHeight={58}>
+      <ul className="flex flex-wrap gap-2 text-sm text-gray-600">
         {sizes.map((size: string, i: number) => {
           const isAllowed = allowedSizes.includes(size);
           return (
@@ -185,8 +185,8 @@ function ColorPicker() {
   const [allowedColors, setAllowedColors] = useState<string[]>([]);
 
   return (
-    <DropDownContainer contentHeight={30} category="Color">
-      <ul className="flex flex-wrap w-full gap-2 justify-between pb-3">
+    <DropDownContainer contentHeight={22} headerContentGap={2} category="Color">
+      <ul className="flex flex-wrap w-full gap-2 justify-between items-center">
         {colors.map((color: string, i: number) => {
           const isAllowed = allowedColors.includes(color);
 
@@ -252,7 +252,7 @@ function PriceRange() {
   }, []);
 
   return (
-    <DropDownContainer category="Price" contentHeight={20}>
+    <DropDownContainer category="Price" contentHeight={16}>
       <div
         className="min-max-slider h-1 text-xs w-full font-bold"
         ref={rangeContainerRef}
