@@ -1,6 +1,7 @@
 import type { Route } from "./+types/page";
 import { RiArrowRightSLine } from "react-icons/ri";
 import ShopSidebar from "./_components/shop-sidebar";
+import ShopItemContainer from "./_components/shop-product-container";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -13,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <div className="bg-gray-200 w-full h-0.5 px-4"></div>
-      <div className="container-padding py-6">
+      <div className="container-padding py-6 flex flex-col gap-y-6">
         <ul className="flex items-center gap-x-1">
           <li>
             <a href="#" className="text-gray-500">
@@ -27,9 +28,11 @@ export default function Home() {
             <a href="#">Casual</a>
           </li>
         </ul>
-        <div className="flex">
+        <div className="flex gap-x-4">
           <ShopSidebar />
-          <div className="flex-1"></div>
+          <div className="flex-1">
+            <ShopItemContainer />
+          </div>
         </div>
       </div>
     </div>
