@@ -142,7 +142,7 @@ function SizePicker() {
   const [allowedSizes, setAllowedSizes] = useState<string[]>([]);
 
   return (
-    <DropDownContainer category="Size" headerContentGap={2} contentHeight={58}>
+    <DropDownContainer category="Size" headerContentGap={2} contentHeight={60}>
       <ul className="flex flex-wrap gap-2 text-sm text-gray-600">
         {sizes.map((size: string, i: number) => {
           const isAllowed = allowedSizes.includes(size);
@@ -153,7 +153,7 @@ function SizePicker() {
                   background: isAllowed ? "black" : "#f3f4f6",
                   color: isAllowed ? "white" : "#4a5565",
                 }}
-                className="px-5 py-2 bg-gray-100 rounded-4xl cursor-pointer"
+                className="px-6 py-2.5 bg-gray-100 rounded-4xl cursor-pointer"
                 onClick={() => {
                   toggleListAddRemove(setAllowedSizes, size);
                 }}
@@ -185,7 +185,11 @@ function ColorPicker() {
   const [allowedColors, setAllowedColors] = useState<string[]>([]);
 
   return (
-    <DropDownContainer contentHeight={22} headerContentGap={2} category="Color">
+    <DropDownContainer
+      contentHeight={26}
+      headerContentGap={2}
+      category="Colors"
+    >
       <ul className="flex flex-wrap w-full gap-2 justify-between items-center">
         {colors.map((color: string, i: number) => {
           const isAllowed = allowedColors.includes(color);
@@ -198,7 +202,7 @@ function ColorPicker() {
                   borderColor: `rgba(0,0,0,0.05)`,
                   boxShadow: isAllowed ? `0 0 5px ${color}` : "",
                 }}
-                className="w-8 h-8 rounded-full cursor-pointer flex items-center justify-center border"
+                className="w-10 h-10 rounded-full cursor-pointer flex items-center justify-center border"
                 onClick={() => {
                   toggleListAddRemove(setAllowedColors, color);
                 }}
@@ -225,8 +229,6 @@ function ColorPicker() {
 function PriceRange() {
   const minValue = 0;
   const maxValue = 1000;
-
-  const [isActive, setIsActive] = useState<boolean>(false);
 
   const [minPrice, setMinPrice] = useState(300);
   const [maxPrice, setMaxPrice] = useState(700);
@@ -343,7 +345,7 @@ function TypePicker() {
 export default function ShopSidebar() {
   return (
     <div>
-      <div className="border border-gray-300 lg:w-64 rounded-2xl px-5 py-6 hidden xl:flex flex-col gap-y-4">
+      <div className="border border-gray-300 lg:w-76 rounded-2xl px-5 py-6 hidden xl:flex flex-col gap-y-4">
         <div className="flex items-center justify-between">
           <h5 className="font-bold text-lg">Filters</h5>
           <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
@@ -358,7 +360,7 @@ export default function ShopSidebar() {
         <SizePicker />
         <div className="h-0.25 bg-gray-200"></div>
         <StylePicker />
-        <button className="bg-black text-white py-3 cursor-pointer rounded-4xl text-xs">
+        <button className="bg-black text-white py-4 cursor-pointer rounded-4xl text-sm">
           Apply Filter
         </button>
       </div>
