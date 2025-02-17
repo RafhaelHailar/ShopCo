@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+import { ScreenContext } from "components/screen-context";
 
 interface Comment {
   id: number;
@@ -85,26 +86,14 @@ function CommentBox({
   totalComments,
 }: CommentBoxProps) {
   const swiper = useSwiper();
-  const [screenWidth, setScreenWidth] = useState(swiper.width);
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const handleResize = () => {
-        setScreenWidth(window.innerWidth);
-      };
-      setScreenWidth(window.innerWidth);
-      window.addEventListener("resize", handleResize);
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }
-  }, []);
-
+  const screenContext = useContext(ScreenContext);
+  const screenWidth = screenContext.width;
   const isLargeScreen = screenWidth >= 1024;
   const leftPeripheralIndex = swiper.realIndex;
   const rightPeripheralIndex =
     ((swiper.realIndex + nextBlurredComment) % totalComments) -
     Number(isLargeScreen && screenWidth < 1280);
+
   return (
     <>
       {isLargeScreen &&
