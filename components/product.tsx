@@ -14,22 +14,22 @@ export default function ProductContainer({ product }: { product: Product }) {
       <div className="w-full relative flex items-center justify-center rounded-xl overflow-hidden">
         <img src={product.image} className="w-full" />
       </div>
-      <div className="flex flex-col gap-y-1 mt-4">
-        <h5 className="font-bold text-xs lg:text-lg">{product.name}</h5>
+      <div className="flex flex-col gap-y-1 lg:gap-y-2 mt-4">
+        <h5 className="font-bold text-xs lg:text-xl">{product.name}</h5>
         <div className="flex items-center gap-x-1">
-          <div className="flex items-center text-xs lg:text-md gap-x-0.5">
+          <div className="flex items-center text-xs lg:text-xl gap-x-0.5">
             {new Array(fullStarTotal).fill(null).map((_, i) => (
               <FaStar key={i} className="text-amber-400" />
             ))}
             {haveHalfStar ? <FaStarHalf className="text-amber-400" /> : <></>}
           </div>
-          <p className="text-xs mt-1">
+          <p className="text-xs lg:text-md mt-1">
             {rating}
             <i className="not-italic text-gray-500">/5</i>
           </p>
         </div>
         <div className="flex gap-x-2">
-          <p className="font-bold text-sm lg:text-lg">${price}</p>
+          <p className="font-bold text-sm lg:text-xl">${price}</p>
           {product.discount > 0 ? (
             <>
               <p className="line-through text-gray-400 font-bold text-sm lg:text-lg">

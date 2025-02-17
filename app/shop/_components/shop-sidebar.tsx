@@ -342,24 +342,26 @@ function TypePicker() {
 
 export default function ShopSidebar() {
   return (
-    <div className="border border-gray-300 lg:w-64 rounded-2xl px-5 py-6 hidden xl:flex flex-col gap-y-4">
-      <div className="flex items-center justify-between">
-        <h5 className="font-bold text-lg">Filters</h5>
-        <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
+    <div>
+      <div className="border border-gray-300 lg:w-64 rounded-2xl px-5 py-6 hidden xl:flex flex-col gap-y-4">
+        <div className="flex items-center justify-between">
+          <h5 className="font-bold text-lg">Filters</h5>
+          <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
+        </div>
+        <div className="h-0.25 bg-gray-200"></div>
+        <TypePicker />
+        <div className="h-0.25 bg-gray-200"></div>
+        <PriceRange />
+        <div className="h-0.25 bg-gray-200"></div>
+        <ColorPicker />
+        <div className="h-0.25 bg-gray-200"></div>
+        <SizePicker />
+        <div className="h-0.25 bg-gray-200"></div>
+        <StylePicker />
+        <button className="bg-black text-white py-3 cursor-pointer rounded-4xl text-xs">
+          Apply Filter
+        </button>
       </div>
-      <div className="h-0.25 bg-gray-200"></div>
-      <TypePicker />
-      <div className="h-0.25 bg-gray-200"></div>
-      <PriceRange />
-      <div className="h-0.25 bg-gray-200"></div>
-      <ColorPicker />
-      <div className="h-0.25 bg-gray-200"></div>
-      <SizePicker />
-      <div className="h-0.25 bg-gray-200"></div>
-      <StylePicker />
-      <button className="bg-black text-white py-3 cursor-pointer rounded-4xl text-xs">
-        Apply Filter
-      </button>
     </div>
   );
 }

@@ -28,7 +28,7 @@ export default function Home() {
             <a href="#">Casual</a>
           </li>
         </ul>
-        <div className="flex gap-x-4">
+        <div className="flex gap-x-6">
           <ShopSidebar />
           <div className="flex-1">
             <ShopItemContainer />
