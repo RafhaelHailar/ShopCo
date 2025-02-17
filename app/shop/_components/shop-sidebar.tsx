@@ -1,4 +1,4 @@
-import {
+import React, {
   useEffect,
   useRef,
   useState,
@@ -6,7 +6,11 @@ import {
   type SetStateAction,
 } from "react";
 import { HiOutlineAdjustmentsVertical } from "react-icons/hi2";
-import { RiArrowRightSLine, RiArrowUpSLine } from "react-icons/ri";
+import {
+  RiArrowRightSLine,
+  RiArrowUpSLine,
+  RiArrowDownSLine,
+} from "react-icons/ri";
 import { IoMdCheckmark } from "react-icons/io";
 
 function toggleListAddRemove<T>(
@@ -22,6 +26,51 @@ function toggleListAddRemove<T>(
     }
     return [...itemsSet];
   });
+}
+
+function DropDownContainer({
+  children,
+  category,
+  contentHeight,
+  headerContentGap = 0,
+}: {
+  children: React.ReactNode;
+  category: string;
+  contentHeight: number;
+  headerContentGap?: number;
+}) {
+  const [isActive, setIsActive] = useState<boolean>(false);
+  return (
+    <div
+      className="flex flex-col"
+      style={{
+        rowGap: isActive ? `calc(var(--spacing) * ${headerContentGap})` : 0,
+      }}
+    >
+      <div>
+        <button
+          className="flex justify-between items-center cursor-pointer w-full"
+          onClick={() => setIsActive((v) => !v)}
+        >
+          <h5 className="font-bold text-lg">{category}</h5>
+          {isActive ? (
+            <RiArrowUpSLine className="text-xl" />
+          ) : (
+            <RiArrowDownSLine className="text-xl" />
+          )}
+        </button>
+      </div>
+      <div
+        className="transition-all flex w-full items-center overflow-hidden"
+        style={{
+          height: `calc(var(--spacing) * ${contentHeight})`,
+          maxHeight: isActive ? `calc(var(--spacing) * ${contentHeight})` : 0,
+        }}
+      >
+        {children}
+      </div>
+    </div>
+  );
 }
 
 interface SelectionLink {
@@ -68,13 +117,13 @@ function StylePicker() {
     },
   ];
   return (
-    <div className="flex flex-col gap-y-4">
-      <div className="flex justify-between items-center">
-        <h5 className="font-bold text-lg">Dress Style</h5>
-        <RiArrowUpSLine className="text-xl" />
-      </div>
+    <DropDownContainer
+      category="Dress Style"
+      headerContentGap={0}
+      contentHeight={40}
+    >
       <LinkSelectionList selections={links} />
-    </div>
+    </DropDownContainer>
   );
 }
 
@@ -93,11 +142,7 @@ function SizePicker() {
   const [allowedSizes, setAllowedSizes] = useState<string[]>([]);
 
   return (
-    <div className="flex flex-col gap-y-4">
-      <div className="flex justify-between items-center">
-        <h5 className="font-bold text-lg">Size</h5>
-        <RiArrowUpSLine className="text-xl" />
-      </div>
+    <DropDownContainer category="Size" headerContentGap={2} contentHeight={60}>
       <ul className="flex flex-wrap gap-2 text-sm text-gray-600 pb-2">
         {sizes.map((size: string, i: number) => {
           const isAllowed = allowedSizes.includes(size);
@@ -119,7 +164,7 @@ function SizePicker() {
           );
         })}
       </ul>
-    </div>
+    </DropDownContainer>
   );
 }
 
@@ -140,11 +185,7 @@ function ColorPicker() {
   const [allowedColors, setAllowedColors] = useState<string[]>([]);
 
   return (
-    <div className="flex flex-col gap-y-4">
-      <div className="flex justify-between items-center">
-        <h5 className="font-bold text-lg">Color</h5>
-        <RiArrowUpSLine className="text-xl" />
-      </div>
+    <DropDownContainer contentHeight={30} category="Color">
       <ul className="flex flex-wrap w-full gap-2 justify-between pb-3">
         {colors.map((color: string, i: number) => {
           const isAllowed = allowedColors.includes(color);
@@ -177,13 +218,15 @@ function ColorPicker() {
           );
         })}
       </ul>
-    </div>
+    </DropDownContainer>
   );
 }
 
 function PriceRange() {
   const minValue = 0;
   const maxValue = 1000;
+
+  const [isActive, setIsActive] = useState<boolean>(false);
 
   const [minPrice, setMinPrice] = useState(300);
   const [maxPrice, setMaxPrice] = useState(700);
@@ -209,71 +252,65 @@ function PriceRange() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-y-6">
-      <div className="flex justify-between items-center">
-        <h5 className="font-bold text-lg">Price</h5>
-        <RiArrowUpSLine className="text-xl" />
-      </div>
-      <div className="pb-8">
-        <div
-          className="min-max-slider h-1 text-xs font-bold"
-          ref={rangeContainerRef}
-        >
-          <div className="absolute w-full h-full">
-            <input
-              type="range"
-              id="minPrice"
-              name="minPrice"
-              value={minPrice}
-              min={minValue}
-              max={maxValue}
-              onChange={(event) => {
-                setMinPrice(Number(event.target.value));
-              }}
-            />
-            <label
-              htmlFor="minPrice"
-              className="w-12 flex left-0 justify-center absolute"
-              style={{
-                top: `${maxPrice - minPrice < 100 ? "-28px" : "16px"}`,
-                left: `calc(${minX}px - (2rem / 2))`,
-              }}
-            >
-              ${minPrice}
-            </label>
-          </div>
-          <div className="absolute w-full h-full">
-            <input
-              id="maxPrice"
-              name="maxPrice"
-              type="range"
-              value={maxPrice}
-              min={minValue}
-              max={maxValue}
-              onChange={(event) => {
-                setMaxPrice(Number(event.target.value));
-              }}
-            />
-            <label
-              htmlFor="maxPrice"
-              className="w-12 flex justify-center absolute top-4"
-              style={{
-                left: `calc(${maxX}px - (2rem / 2))`,
-              }}
-            >
-              ${maxPrice}
-            </label>
-          </div>
-          <div
-            className="absolute w-full h-full bg-black"
-            style={{
-              width: `${maxX - minX + 5}px`,
-              left: `${minX}px`,
+    <DropDownContainer category="Price" contentHeight={20}>
+      <div
+        className="min-max-slider h-1 text-xs w-full font-bold"
+        ref={rangeContainerRef}
+      >
+        <div className="absolute w-full h-full">
+          <input
+            type="range"
+            id="minPrice"
+            name="minPrice"
+            value={minPrice}
+            min={minValue}
+            max={maxValue}
+            onChange={(event) => {
+              setMinPrice(Number(event.target.value));
             }}
           />
+          <label
+            htmlFor="minPrice"
+            className="w-12 flex left-0 justify-center absolute"
+            style={{
+              top: `${maxPrice - minPrice < 100 ? "-28px" : "16px"}`,
+              left: `calc(${minX}px - (2rem / 2))`,
+            }}
+          >
+            ${minPrice}
+          </label>
         </div>
+        <div className="absolute w-full h-full">
+          <input
+            id="maxPrice"
+            name="maxPrice"
+            type="range"
+            value={maxPrice}
+            min={minValue}
+            max={maxValue}
+            onChange={(event) => {
+              setMaxPrice(Number(event.target.value));
+            }}
+          />
+          <label
+            htmlFor="maxPrice"
+            className="w-12 flex justify-center absolute top-4"
+            style={{
+              left: `calc(${maxX}px - (2rem / 2))`,
+            }}
+          >
+            ${maxPrice}
+          </label>
+        </div>
+        <div
+          className="absolute w-full h-full bg-black"
+          style={{
+            width: `${maxX - minX + 5}px`,
+            left: `${minX}px`,
+          }}
+        />
       </div>
-    </div>
+    </DropDownContainer>
   );
 }
 
@@ -320,7 +357,7 @@ export default function ShopSidebar() {
       <SizePicker />
       <div className="h-0.25 bg-gray-200"></div>
       <StylePicker />
-      <button className="mt-4 bg-black text-white py-3 cursor-pointer rounded-4xl text-xs">
+      <button className="bg-black text-white py-3 cursor-pointer rounded-4xl text-xs">
         Apply Filter
       </button>
     </div>
