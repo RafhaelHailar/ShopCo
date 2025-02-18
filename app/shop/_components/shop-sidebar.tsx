@@ -1,4 +1,5 @@
 import React, {
+  useContext,
   useEffect,
   useRef,
   useState,
@@ -12,6 +13,9 @@ import {
   RiArrowDownSLine,
 } from "react-icons/ri";
 import { IoMdCheckmark } from "react-icons/io";
+import { HiMiniXMark } from "react-icons/hi2";
+import { ShopSidebarContext } from "./shop-sidebar-context";
+import { ScreenContext } from "components/screen-context";
 
 function toggleListAddRemove<T>(
   setter: Dispatch<SetStateAction<T[]>>,
@@ -61,7 +65,7 @@ function DropDownContainer({
         </button>
       </div>
       <div
-        className="transition-all flex w-full items-center overflow-hidden"
+        className="transition-all flex w-full items-center overflow-hidden relative"
         style={{
           height: `calc(var(--spacing) * ${contentHeight})`,
           maxHeight: isActive ? `calc(var(--spacing) * ${contentHeight})` : 0,
@@ -230,9 +234,10 @@ function PriceRange() {
   const minValue = 0;
   const maxValue = 1000;
 
+  const screenContext = useContext(ScreenContext);
   const [minPrice, setMinPrice] = useState(300);
   const [maxPrice, setMaxPrice] = useState(700);
-  const [rangeWidth, setRangeWidth] = useState(0);
+  const [rangeWidth, setRangeWidth] = useState(300);
 
   const minX = (minPrice / maxValue) * (rangeWidth - 20);
   const maxX = (maxPrice / maxValue) * (rangeWidth - 20);
@@ -251,12 +256,12 @@ function PriceRange() {
     if (rangeContainerRef && rangeContainerRef.current) {
       setRangeWidth(rangeContainerRef.current.offsetWidth);
     }
-  }, []);
+  }, [screenContext.width]);
 
   return (
     <DropDownContainer category="Price" contentHeight={16}>
       <div
-        className="min-max-slider h-1 text-xs w-full font-bold"
+        className="relative min-max-slider h-1 text-xs w-full font-bold"
         ref={rangeContainerRef}
       >
         <div className="absolute w-full h-full">
@@ -343,12 +348,29 @@ function TypePicker() {
 }
 
 export default function ShopSidebar() {
+  const screenContext = useContext(ScreenContext);
+  const shopSidebarContext = useContext(ShopSidebarContext);
+  const isLargeScreen = screenContext.width >= 768;
+
   return (
-    <div>
-      <div className="border border-gray-300 lg:w-76 rounded-2xl px-5 py-6 hidden xl:flex flex-col gap-y-4">
+    <div
+      className="no-scrollbar xl:block absolute lg:relative xl:relative z-10 left-0 top-22 lg:top-0 h-full overflow-auto"
+      style={{
+        display:
+          !isLargeScreen && !shopSidebarContext.isOpen ? "none" : "block",
+      }}
+    >
+      <div className="relative border border-gray-300 lg:w-76 px-5 py-6 flex flex-col gap-y-4 bg-white rounded-2xl">
         <div className="flex items-center justify-between">
-          <h5 className="font-bold text-lg">Filters</h5>
-          <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
+          <h5 className="font-bold text-xl lg:text-lg">Filters</h5>
+
+          {isLargeScreen ? (
+            <HiOutlineAdjustmentsVertical className="text-2xl text-gray-500" />
+          ) : (
+            <button onClick={shopSidebarContext.toggle}>
+              <HiMiniXMark className="text-gray-500 text-3xl" />
+            </button>
+          )}
         </div>
         <div className="h-0.25 bg-gray-200"></div>
         <TypePicker />
@@ -360,7 +382,7 @@ export default function ShopSidebar() {
         <SizePicker />
         <div className="h-0.25 bg-gray-200"></div>
         <StylePicker />
-        <button className="bg-black text-white py-4 cursor-pointer rounded-4xl text-sm">
+        <button className="bg-black text-white py-3 lg:py-4 cursor-pointer rounded-4xl text-sm">
           Apply Filter
         </button>
       </div>
