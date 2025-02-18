@@ -144,9 +144,15 @@ function SizePicker() {
     "4X-Large",
   ];
   const [allowedSizes, setAllowedSizes] = useState<string[]>([]);
+  const screenContext = useContext(ScreenContext);
+  const isLargeScreen = screenContext.width >= 1024;
 
   return (
-    <DropDownContainer category="Size" headerContentGap={2} contentHeight={60}>
+    <DropDownContainer
+      category="Size"
+      headerContentGap={2}
+      contentHeight={isLargeScreen ? 60 : 40}
+    >
       <ul className="flex flex-wrap gap-2 text-sm text-gray-600">
         {sizes.map((size: string, i: number) => {
           const isAllowed = allowedSizes.includes(size);
@@ -194,7 +200,7 @@ function ColorPicker() {
       headerContentGap={2}
       category="Colors"
     >
-      <ul className="flex flex-wrap w-full gap-2 justify-between items-center">
+      <ul className="flex flex-wrap w-full gap-2 items-center">
         {colors.map((color: string, i: number) => {
           const isAllowed = allowedColors.includes(color);
 
@@ -235,6 +241,8 @@ function PriceRange() {
   const maxValue = 1000;
 
   const screenContext = useContext(ScreenContext);
+  const shopSidebarContext = useContext(ShopSidebarContext);
+
   const [minPrice, setMinPrice] = useState(300);
   const [maxPrice, setMaxPrice] = useState(700);
   const [rangeWidth, setRangeWidth] = useState(300);
@@ -256,7 +264,7 @@ function PriceRange() {
     if (rangeContainerRef && rangeContainerRef.current) {
       setRangeWidth(rangeContainerRef.current.offsetWidth);
     }
-  }, [screenContext.width]);
+  }, [screenContext.width, shopSidebarContext.isOpen]);
 
   return (
     <DropDownContainer category="Price" contentHeight={16}>

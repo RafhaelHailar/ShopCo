@@ -1,7 +1,9 @@
+import Navbar from "components/navbar";
 import type { Route } from "./+types/page";
 import MarketingHeader from "./_components/marketing-header";
 import MarketingProductsOverview from "./_components/marketing-products-overview";
 import MarketingReview from "./_components/marketing-review";
+import Footer from "components/footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,10 +14,12 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div>
+    <main className="page">
+      <Navbar />
       <MarketingHeader />
       <MarketingProductsOverview />
       <MarketingReview />
-    </div>
+      <Footer />
+    </main>
   );
 }

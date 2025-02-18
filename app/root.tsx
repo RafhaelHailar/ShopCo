@@ -10,8 +10,6 @@ import "swiper/css";
 
 import type { Route } from "./+types/root";
 import "./app.css";
-import Navbar from "components/navbar";
-import Footer from "components/footer";
 import ScreenContextContainer from "components/screen-context";
 
 export const links: Route.LinksFunction = () => [
@@ -48,11 +46,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <ScreenContextContainer>
-      <main className="page">
-        <Navbar />
-        <Outlet />
-        <Footer />
-      </main>
+      <Outlet />
     </ScreenContextContainer>
   );
 }

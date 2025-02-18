@@ -20,7 +20,7 @@ function SidebarBackgroundOverlay({ children }: { children: ReactNode[] }) {
   const shopSidebarContext = useContext(ShopSidebarContext);
 
   return (
-    <div>
+    <main className="page">
       {shopSidebarContext.isOpen && (
         <div
           className="w-full h-full absolute top-0 left-0 z-5"
@@ -35,7 +35,7 @@ function SidebarBackgroundOverlay({ children }: { children: ReactNode[] }) {
       >
         {...children}
       </div>
-    </div>
+    </main>
   );
 }
 
