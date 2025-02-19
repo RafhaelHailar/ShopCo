@@ -5,9 +5,8 @@ import ShopSidebarContextContainer, {
   ShopSidebarContext,
 } from "./_components/shop-sidebar-context";
 import Footer from "components/footer";
-import Navbar from "components/navbar";
+import Navbar, { RouteHistoryDisplay } from "components/navbar";
 import { useContext, type ReactNode } from "react";
-import { RouteHistoryDisplay } from "components/route-history";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -44,7 +43,18 @@ export default function Home() {
     <ShopSidebarContextContainer>
       <SidebarBackgroundOverlay>
         <Navbar />
-        <RouteHistoryDisplay>
+        <RouteHistoryDisplay
+          routes={[
+            {
+              name: "Home",
+              path: "/",
+            },
+            {
+              name: "Shop",
+              path: "/shop",
+            },
+          ]}
+        >
           <div className="flex lg:gap-x-6">
             <ShopSidebar />
             <div className="flex-1">

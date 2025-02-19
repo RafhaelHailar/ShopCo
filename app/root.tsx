@@ -11,7 +11,6 @@ import "swiper/css";
 import type { Route } from "./+types/root";
 import "./app.css";
 import ScreenContextContainer from "components/screen-context";
-import { RouteHistoryContainer } from "components/route-history";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -46,11 +45,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <RouteHistoryContainer>
-      <ScreenContextContainer>
-        <Outlet />
-      </ScreenContextContainer>
-    </RouteHistoryContainer>
+    <ScreenContextContainer>
+      <Outlet />
+    </ScreenContextContainer>
   );
 }
 

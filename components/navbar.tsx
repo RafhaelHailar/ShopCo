@@ -3,6 +3,44 @@ import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import { LuCircleUserRound } from "react-icons/lu";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router";
+import type { ReactNode } from "react";
+import type { Route } from "types/route";
+import { RiArrowRightSLine } from "react-icons/ri";
+
+export function RouteHistoryDisplay({
+  routes,
+  children,
+}: {
+  routes: Route[];
+  children: ReactNode;
+}) {
+  return (
+    <div className="pb-20">
+      <div className="bg-gray-200 w-full h-0.5 px-4"></div>
+      <div className="container-padding py-6 flex flex-col gap-y-2 lg:gap-y-6">
+        <ul className="flex items-center gap-x-1">
+          {routes.map((route: Route, i: number) => {
+            return (
+              <>
+                <li>
+                  <Link to={route.path} className="text-gray-500">
+                    {route.name}
+                  </Link>
+                </li>
+                {i < routes.length - 1 && (
+                  <li>
+                    <RiArrowRightSLine className="mt-0.5 text-lg text-gray-600 font-black" />
+                  </li>
+                )}
+              </>
+            );
+          })}
+        </ul>
+        {children}
+      </div>
+    </div>
+  );
+}
 
 export default function Navbar() {
   return (

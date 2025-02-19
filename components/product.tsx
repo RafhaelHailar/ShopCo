@@ -1,4 +1,5 @@
 import { FaStar, FaStarHalf } from "react-icons/fa6";
+import { Link } from "react-router";
 import type { Product } from "types/product";
 
 export default function ProductContainer({ product }: { product: Product }) {
@@ -11,9 +12,11 @@ export default function ProductContainer({ product }: { product: Product }) {
   const price = product.price - product.price * product.discount;
   return (
     <div>
-      <div className="w-full relative flex items-center justify-center rounded-xl overflow-hidden">
-        <img src={product.image} className="w-full" />
-      </div>
+      <Link to={"/product/" + product.id}>
+        <div className="w-full relative flex items-center justify-center rounded-xl overflow-hidden">
+          <img src={product.image} className="w-full" />
+        </div>
+      </Link>
       <div className="flex flex-col gap-y-1 lg:gap-y-2 mt-4">
         <h5 className="font-bold text-xs lg:text-xl">{product.name}</h5>
         <div className="flex items-center gap-x-1">
