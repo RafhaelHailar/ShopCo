@@ -2,6 +2,7 @@ import { FiSearch } from "react-icons/fi";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import { LuCircleUserRound } from "react-icons/lu";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router";
 
 export default function Navbar() {
   return (
@@ -14,22 +15,22 @@ export default function Navbar() {
           </a>
         </p>
       </div>
-      <div className="py-2 lg:py-4 flex justify-between items-center container-padding bg-white">
-        <div className="flex items-center gap-x-10">
+      <div className="py-2 lg:py-6 flex justify-between items-center container-padding bg-white">
+        <div className="flex items-center gap-x-12">
           <ul className="flex items-center gap-x-6">
             <li className="block xl:hidden">
               <a href="#" className="text-3xl font-bold">
                 <RxHamburgerMenu />
               </a>
             </li>
-            <li>
-              <a href="#" className="font-bold text-3xl">
+            <li className="-mt-2">
+              <Link to="/" className="font-bold text-4xl">
                 <h2>SHOP.CO</h2>
-              </a>
+              </Link>
               <div className="h-1"></div>
             </li>
           </ul>
-          <ul className="gap-x-6 items-center hidden xl:flex">
+          <ul className="gap-x-8 items-center hidden xl:flex">
             <li>
               <a href="#">Shop</a>
             </li>
@@ -44,16 +45,16 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="flex items-center gap-x-6">
-          <div className="hidden lg:flex lg:w-96 items-center bg-gray-100 py-3 2xl:w-xl rounded-3xl px-4 gap-x-2">
-            <FiSearch className="text-gray-500" />
+        <div className="flex items-center gap-x-12">
+          <div className="hidden lg:flex lg:w-96 items-center bg-gray-100 py-3 2xl:w-xl rounded-3xl px-4 gap-x-3">
+            <FiSearch className="text-gray-500 text-2xl" />
             <input
               type="text"
-              className="text-sm outline-none"
+              className="outline-none"
               placeholder="Search for products..."
             />
           </div>
-          <ul className="flex gap-x-4 text-xl">
+          <ul className="flex gap-x-4 text-3xl">
             <li className="block lg:hidden">
               <a href="#">
                 <FiSearch />

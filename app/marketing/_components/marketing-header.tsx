@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function MarketingHeader() {
   return (
     <section className="bg-stone-100">
@@ -13,9 +15,11 @@ export default function MarketingHeader() {
               of style.
             </p>
             <div>
-              <button className="min-w-full md:min-w-0 bg-black text-white px-16 cursor-pointer py-3 rounded-4xl">
-                Shop Now
-              </button>
+              <Link to="/shop">
+                <button className="min-w-full md:min-w-0 bg-black text-white px-16 cursor-pointer py-3 rounded-4xl">
+                  Shop Now
+                </button>
+              </Link>
             </div>
             <div className="flex pl-3 md:pl-0 h-18 lg:mt-12 gap-x-4 sm:gap-x-14  md:gap-x-15 lg:gap-x-24 gap-y-4 lg:gap-y-8 xl:gap-x-11 justify-center xl:justify-start flex-wrap xl:flex-nowrap">
               <div className="flex items-center justify-center">
