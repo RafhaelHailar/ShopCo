@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FaStar, FaStarHalf } from "react-icons/fa";
 import type { Product } from "types/product";
 import ProductContainer from "components/product";
+import { Link } from "react-router";
 
 interface ProductCategoryProps {
   category: string;
@@ -41,9 +41,11 @@ function ProductCategory({ category, items }: ProductCategoryProps) {
         })}
       </Swiper>
       <div className="flex justify-center">
-        <button className="w-full lg:w-auto mt-8 px-18 border border-gray-200 cursor-pointer rounded-3xl py-2 font-bold">
-          View All
-        </button>
+        <Link to="shop">
+          <button className="w-full lg:w-auto mt-8 px-18 border border-gray-200 cursor-pointer rounded-3xl py-2 font-bold">
+            View All
+          </button>
+        </Link>
       </div>
     </div>
   );

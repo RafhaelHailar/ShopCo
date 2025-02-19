@@ -32,7 +32,7 @@ export default function Navbar() {
           </ul>
           <ul className="gap-x-8 items-center hidden xl:flex">
             <li>
-              <a href="#">Shop</a>
+              <Link to="/shop">Shop</Link>
             </li>
             <li>
               <a href="#">On Sale</a>
