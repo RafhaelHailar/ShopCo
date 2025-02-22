@@ -4,6 +4,7 @@ import Footer from "components/footer";
 import { RouteHistoryDisplay } from "components/navbar";
 import { tempData } from "~/shop/_lib/data";
 import type { Product } from "types/product";
+import ProductOverview from "./_components/product-overview";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -36,7 +37,9 @@ export default function Home({ params }: Route.ComponentProps) {
           },
         ]}
       >
-        <div></div>
+        <div>
+          <ProductOverview productData={productData} />
+        </div>
       </RouteHistoryDisplay>
       <Footer />
     </main>

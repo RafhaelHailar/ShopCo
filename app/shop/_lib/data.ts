@@ -5,9 +5,9 @@ export const tempData: Product[] = [
     "id": 0,
     "image": "/images/t-shirt-with-tape-details.jpg",
     "name": "One Life Graphic T Shirt",
-    "rating": 60,
-    "price": 120,
-    "discount": 0,
+    "rating": 90,
+    "price": 300,
+    "discount": 0.4,
     "type": "T-shirt",
     "gallery_image": [
       "/images/one-life-graphic-t-shirt-1.jpg",
