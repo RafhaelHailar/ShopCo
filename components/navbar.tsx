@@ -6,6 +6,7 @@ import { Link } from "react-router";
 import type { ReactNode } from "react";
 import type { Route } from "types/route";
 import { RiArrowRightSLine } from "react-icons/ri";
+import React from "react";
 
 export function RouteHistoryDisplay({
   routes,
@@ -21,7 +22,7 @@ export function RouteHistoryDisplay({
         <ul className="flex items-center gap-x-1">
           {routes.map((route: Route, i: number) => {
             return (
-              <>
+              <React.Fragment key={i}>
                 <li>
                   <Link to={route.path} className="text-gray-500">
                     {route.name}
@@ -32,7 +33,7 @@ export function RouteHistoryDisplay({
                     <RiArrowRightSLine className="mt-0.5 text-lg text-gray-600 font-black" />
                   </li>
                 )}
-              </>
+              </React.Fragment>
             );
           })}
         </ul>
