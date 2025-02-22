@@ -16,7 +16,7 @@ export const tempData: Product[] = [
     ],
     "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
     "available_colors": ["#4F4631", "#314F4A", "#31344F"],
-    "available_sizes": ["Small", "Medium", "Large"]
+    "available_sizes": ["Small", "Medium", "Large", "X-Large"]
   },
   {
     "id": 1,

@@ -2,12 +2,74 @@ import { StarDisplay, PriceDisplay } from "components/product";
 import { useState } from "react";
 import { IoMdCheckmark } from "react-icons/io";
 import type { Product } from "types/product";
+import { FiMinus, FiPlus } from "react-icons/fi";
+
+function QuantityModifier() {
+  const [quantity, setQuantity] = useState<number>(1);
+
+  return (
+    <div className="w-4/12">
+      <div className="flex items-center bg-stone-100 rounded-4xl overflow-hidden py-3">
+        <button
+          className="cursor-pointer h-full pl-5 pr-2"
+          onClick={() => setQuantity((q) => (q > 1 ? q - 1 : q))}
+        >
+          <FiMinus />
+        </button>
+        <input
+          type="number"
+          disabled
+          className="text-center w-full"
+          value={quantity}
+        />
+        <button
+          className="cursor-pointer h-full pr-5"
+          onClick={() => setQuantity((q) => q + 1)}
+        >
+          <FiPlus />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function SizeSelection({ sizes }: { sizes: string[] }) {
+  const [chosenSizeIdx, setChosenSizeIdx] = useState<number>(0);
+
+  return (
+    <div className="flex flex-col gap-y-3">
+      <h5 className="text-gray-500">Choose Size</h5>
+      <div className="flex gap-x-3">
+        {sizes.map((size, i) => {
+          const isChosen = i === chosenSizeIdx;
+          return (
+            <button
+              key={i}
+              className="cursor-pointer"
+              onClick={() => setChosenSizeIdx(i)}
+            >
+              <div
+                className="px-5 py-2 bg-stone-100 text-gray-500 rounded-4xl"
+                style={{
+                  color: isChosen ? "white" : "var(--color-gray-500) ",
+                  background: isChosen ? "black" : "var(--color-stone-100)",
+                }}
+              >
+                {size}
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 function ColorSelection({ colors }: { colors: string[] }) {
   const [chosenColorIdx, setChosenColorIdx] = useState<number>(0);
 
   return (
-    <div className="flex flex-col gap-y-3 pb-3">
+    <div className="flex flex-col gap-y-3">
       <h5 className="text-gray-500">Select Colors</h5>
       <div className="flex gap-x-4">
         {colors.map((color, i) => (
@@ -44,7 +106,7 @@ function ProductGallery({ galleryImage }: { galleryImage: string[] }) {
   const [activeImageIdx, setActiveImageIdx] = useState<number>(0);
 
   return (
-    <div className="flex w-full gap-x-3 h-[30rem]">
+    <div className="flex w-full gap-x-3 h-[32rem]">
       <div className="flex flex-col h-full w-4/12 gap-y-3">
         {galleryImage.map((imageSrc: string, i) => {
           return (
@@ -76,7 +138,7 @@ export default function ProductOverview({
   return (
     <div className="flex gap-x-10">
       <ProductGallery galleryImage={productData.gallery_image} />
-      <div className="w-full flex flex-col gap-y-4">
+      <div className="w-full flex flex-col gap-y-4 justify-between">
         <div className="flex flex-col gap-y-3">
           <h2 className="text-4xl">{productData.name}</h2>
           <StarDisplay
@@ -101,6 +163,19 @@ export default function ProductOverview({
         <div className="h-0.5 bg-gray-100"></div>
         <ColorSelection colors={productData.available_colors} />
         <div className="h-0.5 bg-gray-100"></div>
+        <SizeSelection sizes={productData.available_sizes} />
+        <div className="h-0.5 bg-gray-100"></div>
+        <div className="flex gap-x-5">
+          <QuantityModifier />
+          <div className="w-full flex gap-x-5">
+            <button className="border cursor-pointer border-gray-200 rounded-4xl w-full">
+              Buy Now
+            </button>
+            <button className="bg-black cursor-pointer text-white rounded-4xl w-full">
+              Add to Cart
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

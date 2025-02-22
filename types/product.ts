@@ -9,4 +9,5 @@ export interface Product {
     gallery_image: string[];
     description: string;
     available_colors: string[];
+    available_sizes: string[];
 }
