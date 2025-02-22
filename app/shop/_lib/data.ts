@@ -4,11 +4,17 @@ export const tempData: Product[] = [
   {
     "id": 0,
     "image": "/images/t-shirt-with-tape-details.jpg",
-    "name": "T-shirt with Tape Details",
+    "name": "One Life Graphic T Shirt",
     "rating": 60,
     "price": 120,
     "discount": 0,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/one-life-graphic-t-shirt-1.jpg",
+      "/images/one-life-graphic-t-shirt-2.jpg",
+      "/images/one-life-graphic-t-shirt-3.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 1,
@@ -17,7 +23,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.2,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 2,
@@ -26,7 +38,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 180,
     "discount": 0,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 3,
@@ -35,7 +53,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 4,
@@ -44,7 +68,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 5,
@@ -53,7 +83,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 6,
@@ -62,7 +98,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 7,
@@ -71,7 +113,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 8,
@@ -80,7 +128,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 9,
@@ -89,7 +143,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 10,
@@ -98,7 +158,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 11,
@@ -107,7 +173,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 12,
@@ -116,7 +188,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 13,
@@ -125,7 +203,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 14,
@@ -134,7 +218,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 15,
@@ -143,7 +233,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 16,
@@ -152,7 +248,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 17,
@@ -161,7 +263,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 18,
@@ -170,7 +278,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 19,
@@ -179,7 +293,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 20,
@@ -188,7 +308,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 21,
@@ -197,7 +323,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 22,
@@ -206,7 +338,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 23,
@@ -215,7 +353,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 24,
@@ -224,7 +368,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 25,
@@ -233,7 +383,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 26,
@@ -242,7 +398,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 27,
@@ -251,7 +413,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 28,
@@ -260,7 +428,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 29,
@@ -269,7 +443,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 30,
@@ -278,7 +458,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 31,
@@ -287,7 +473,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 32,
@@ -296,7 +488,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 33,
@@ -305,7 +503,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 34,
@@ -314,7 +518,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 35,
@@ -323,7 +533,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 36,
@@ -332,7 +548,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 37,
@@ -341,7 +563,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 38,
@@ -350,7 +578,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 39,
@@ -359,7 +593,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 40,
@@ -368,7 +608,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 41,
@@ -377,7 +623,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 42,
@@ -386,7 +638,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 43,
@@ -395,7 +653,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 44,
@@ -404,7 +668,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 45,
@@ -413,7 +683,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 46,
@@ -422,7 +698,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 47,
@@ -431,7 +713,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 48,
@@ -440,7 +728,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 49,
@@ -449,7 +743,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 50,
@@ -458,7 +758,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 51,
@@ -467,7 +773,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 52,
@@ -476,7 +788,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 53,
@@ -485,7 +803,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 54,
@@ -494,7 +818,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 55,
@@ -503,7 +833,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 56,
@@ -512,7 +848,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 57,
@@ -521,7 +863,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 58,
@@ -530,7 +878,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 59,
@@ -539,7 +893,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 60,
@@ -548,7 +908,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 61,
@@ -557,7 +923,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 62,
@@ -566,7 +938,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 63,
@@ -575,7 +953,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 64,
@@ -584,7 +968,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 65,
@@ -593,7 +983,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 66,
@@ -602,7 +998,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 67,
@@ -611,7 +1013,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 68,
@@ -620,7 +1028,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 69,
@@ -629,7 +1043,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 70,
@@ -638,7 +1058,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 71,
@@ -647,7 +1073,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 72,
@@ -656,7 +1088,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 73,
@@ -665,7 +1103,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 74,
@@ -674,7 +1118,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 75,
@@ -683,7 +1133,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 76,
@@ -692,7 +1148,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 77,
@@ -701,7 +1163,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 78,
@@ -710,7 +1178,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 79,
@@ -719,7 +1193,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 80,
@@ -728,7 +1208,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 81,
@@ -737,7 +1223,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 82,
@@ -746,7 +1238,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 83,
@@ -755,7 +1253,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 84,
@@ -764,7 +1268,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 85,
@@ -773,7 +1283,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 86,
@@ -782,7 +1298,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 87,
@@ -791,7 +1313,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 88,
@@ -800,7 +1328,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 89,
@@ -809,7 +1343,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 90,
@@ -818,7 +1358,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 91,
@@ -827,7 +1373,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 92,
@@ -836,7 +1388,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 93,
@@ -845,7 +1403,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 94,
@@ -854,7 +1418,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 95,
@@ -863,7 +1433,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 96,
@@ -872,7 +1448,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 97,
@@ -881,7 +1463,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 98,
@@ -890,7 +1478,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 99,
@@ -899,7 +1493,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 100,
@@ -908,7 +1508,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 101,
@@ -917,7 +1523,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 102,
@@ -926,7 +1538,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 103,
@@ -935,7 +1553,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 104,
@@ -944,7 +1568,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 105,
@@ -953,7 +1583,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 106,
@@ -962,7 +1598,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 107,
@@ -971,7 +1613,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 108,
@@ -980,7 +1628,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 109,
@@ -989,7 +1643,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 110,
@@ -998,7 +1658,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 111,
@@ -1007,7 +1673,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 112,
@@ -1016,7 +1688,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 113,
@@ -1025,7 +1703,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 114,
@@ -1034,7 +1718,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 115,
@@ -1043,7 +1733,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 116,
@@ -1052,7 +1748,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 117,
@@ -1061,7 +1763,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 118,
@@ -1070,7 +1778,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 119,
@@ -1079,7 +1793,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 120,
@@ -1088,7 +1808,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 121,
@@ -1097,7 +1823,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 122,
@@ -1106,7 +1838,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 123,
@@ -1115,7 +1853,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 124,
@@ -1124,7 +1868,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 125,
@@ -1133,7 +1883,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 126,
@@ -1142,7 +1898,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 127,
@@ -1151,7 +1913,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 128,
@@ -1160,7 +1928,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 129,
@@ -1169,7 +1943,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 130,
@@ -1178,7 +1958,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 131,
@@ -1187,7 +1973,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 132,
@@ -1196,7 +1988,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 133,
@@ -1205,7 +2003,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 134,
@@ -1214,7 +2018,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 135,
@@ -1223,7 +2033,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 136,
@@ -1232,7 +2048,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 137,
@@ -1241,7 +2063,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 138,
@@ -1250,7 +2078,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 139,
@@ -1259,7 +2093,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 140,
@@ -1268,7 +2108,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 141,
@@ -1277,7 +2123,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 142,
@@ -1286,7 +2138,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 143,
@@ -1295,7 +2153,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 144,
@@ -1304,7 +2168,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 145,
@@ -1313,7 +2183,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 146,
@@ -1322,7 +2198,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 147,
@@ -1331,7 +2213,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 148,
@@ -1340,7 +2228,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 149,
@@ -1349,7 +2243,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 150,
@@ -1358,7 +2258,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 151,
@@ -1367,7 +2273,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 152,
@@ -1376,7 +2288,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 153,
@@ -1385,7 +2303,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 154,
@@ -1394,7 +2318,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 155,
@@ -1403,7 +2333,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 156,
@@ -1412,7 +2348,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 157,
@@ -1421,7 +2363,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 158,
@@ -1430,7 +2378,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 159,
@@ -1439,7 +2393,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 160,
@@ -1448,7 +2408,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 161,
@@ -1457,7 +2423,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 162,
@@ -1466,7 +2438,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 163,
@@ -1475,7 +2453,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 164,
@@ -1484,7 +2468,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 165,
@@ -1493,7 +2483,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 166,
@@ -1502,7 +2498,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 167,
@@ -1511,7 +2513,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 168,
@@ -1520,7 +2528,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 169,
@@ -1529,7 +2543,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 170,
@@ -1538,7 +2558,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 171,
@@ -1547,7 +2573,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 172,
@@ -1556,7 +2588,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 173,
@@ -1565,7 +2603,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 174,
@@ -1574,7 +2618,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 175,
@@ -1583,7 +2633,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 176,
@@ -1592,7 +2648,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 177,
@@ -1601,7 +2663,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 178,
@@ -1610,7 +2678,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 179,
@@ -1619,7 +2693,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 180,
@@ -1628,7 +2708,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 181,
@@ -1637,7 +2723,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 182,
@@ -1646,7 +2738,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 183,
@@ -1655,7 +2753,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 184,
@@ -1664,7 +2768,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 185,
@@ -1673,7 +2783,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 186,
@@ -1682,7 +2798,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 187,
@@ -1691,7 +2813,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 188,
@@ -1700,7 +2828,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 189,
@@ -1709,7 +2843,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 190,
@@ -1718,7 +2858,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 191,
@@ -1727,7 +2873,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 192,
@@ -1736,7 +2888,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 193,
@@ -1745,7 +2903,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 194,
@@ -1754,7 +2918,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 195,
@@ -1763,7 +2933,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 196,
@@ -1772,7 +2948,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 197,
@@ -1781,7 +2963,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 198,
@@ -1790,7 +2978,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 199,
@@ -1799,7 +2993,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 200,
@@ -1808,7 +3008,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 201,
@@ -1817,7 +3023,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 202,
@@ -1826,7 +3038,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 203,
@@ -1835,7 +3053,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 204,
@@ -1844,7 +3068,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 205,
@@ -1853,7 +3083,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 206,
@@ -1862,7 +3098,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 207,
@@ -1871,7 +3113,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 208,
@@ -1880,7 +3128,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 209,
@@ -1889,7 +3143,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 210,
@@ -1898,7 +3158,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 211,
@@ -1907,7 +3173,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 212,
@@ -1916,7 +3188,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 213,
@@ -1925,7 +3203,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 214,
@@ -1934,7 +3218,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 215,
@@ -1943,7 +3233,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 216,
@@ -1952,7 +3248,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 217,
@@ -1961,7 +3263,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 218,
@@ -1970,7 +3278,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 219,
@@ -1979,7 +3293,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 220,
@@ -1988,7 +3308,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 221,
@@ -1997,7 +3323,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 222,
@@ -2006,7 +3338,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 223,
@@ -2015,7 +3353,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 224,
@@ -2024,7 +3368,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 225,
@@ -2033,7 +3383,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 226,
@@ -2042,7 +3398,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 227,
@@ -2051,7 +3413,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 228,
@@ -2060,7 +3428,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 229,
@@ -2069,7 +3443,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 230,
@@ -2078,7 +3458,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 231,
@@ -2087,7 +3473,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 232,
@@ -2096,7 +3488,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 233,
@@ -2105,7 +3503,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 234,
@@ -2114,7 +3518,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 235,
@@ -2123,7 +3533,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 236,
@@ -2132,7 +3548,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 237,
@@ -2141,7 +3563,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 238,
@@ -2150,7 +3578,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 239,
@@ -2159,7 +3593,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 240,
@@ -2168,7 +3608,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 241,
@@ -2177,7 +3623,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 242,
@@ -2186,7 +3638,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 243,
@@ -2195,7 +3653,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 244,
@@ -2204,7 +3668,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 245,
@@ -2213,7 +3683,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 246,
@@ -2222,7 +3698,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 247,
@@ -2231,7 +3713,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 248,
@@ -2240,7 +3728,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 249,
@@ -2249,7 +3743,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 250,
@@ -2258,7 +3758,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 251,
@@ -2267,7 +3773,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 252,
@@ -2276,7 +3788,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 253,
@@ -2285,7 +3803,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 254,
@@ -2294,7 +3818,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 255,
@@ -2303,7 +3833,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 256,
@@ -2312,7 +3848,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 257,
@@ -2321,7 +3863,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 258,
@@ -2330,7 +3878,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 259,
@@ -2339,7 +3893,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 260,
@@ -2348,7 +3908,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 261,
@@ -2357,7 +3923,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 262,
@@ -2366,7 +3938,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 263,
@@ -2375,7 +3953,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 264,
@@ -2384,7 +3968,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 265,
@@ -2393,7 +3983,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 266,
@@ -2402,7 +3998,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 267,
@@ -2411,7 +4013,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 268,
@@ -2420,7 +4028,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 269,
@@ -2429,7 +4043,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 270,
@@ -2438,7 +4058,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 271,
@@ -2447,7 +4073,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 272,
@@ -2456,7 +4088,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 273,
@@ -2465,7 +4103,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 274,
@@ -2474,7 +4118,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 275,
@@ -2483,7 +4133,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 276,
@@ -2492,7 +4148,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 277,
@@ -2501,7 +4163,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 278,
@@ -2510,7 +4178,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 279,
@@ -2519,7 +4193,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 280,
@@ -2528,7 +4208,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 281,
@@ -2537,7 +4223,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 282,
@@ -2546,7 +4238,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 283,
@@ -2555,7 +4253,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 284,
@@ -2564,7 +4268,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 285,
@@ -2573,7 +4283,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 286,
@@ -2582,7 +4298,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 287,
@@ -2591,7 +4313,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 288,
@@ -2600,7 +4328,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 289,
@@ -2609,7 +4343,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 290,
@@ -2618,7 +4358,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 291,
@@ -2627,7 +4373,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 292,
@@ -2636,7 +4388,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 293,
@@ -2645,7 +4403,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 294,
@@ -2654,7 +4418,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 295,
@@ -2663,7 +4433,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 296,
@@ -2672,7 +4448,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 297,
@@ -2681,7 +4463,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 298,
@@ -2690,7 +4478,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 299,
@@ -2699,7 +4493,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 300,
@@ -2708,7 +4508,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 301,
@@ -2717,7 +4523,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 302,
@@ -2726,7 +4538,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 303,
@@ -2735,7 +4553,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 304,
@@ -2744,7 +4568,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 305,
@@ -2753,7 +4583,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 306,
@@ -2762,7 +4598,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 307,
@@ -2771,7 +4613,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 308,
@@ -2780,7 +4628,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 309,
@@ -2789,7 +4643,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 310,
@@ -2798,7 +4658,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 311,
@@ -2807,7 +4673,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 312,
@@ -2816,7 +4688,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 313,
@@ -2825,7 +4703,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 314,
@@ -2834,7 +4718,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 315,
@@ -2843,7 +4733,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 316,
@@ -2852,7 +4748,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 317,
@@ -2861,7 +4763,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 318,
@@ -2870,7 +4778,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 319,
@@ -2879,7 +4793,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 320,
@@ -2888,7 +4808,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 321,
@@ -2897,7 +4823,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 322,
@@ -2906,7 +4838,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 323,
@@ -2915,7 +4853,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 324,
@@ -2924,7 +4868,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 325,
@@ -2933,7 +4883,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 326,
@@ -2942,7 +4898,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 327,
@@ -2951,7 +4913,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 328,
@@ -2960,7 +4928,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 329,
@@ -2969,7 +4943,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 330,
@@ -2978,7 +4958,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 331,
@@ -2987,7 +4973,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 332,
@@ -2996,7 +4988,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 333,
@@ -3005,7 +5003,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 334,
@@ -3014,7 +5018,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 335,
@@ -3023,7 +5033,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 336,
@@ -3032,7 +5048,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 337,
@@ -3041,7 +5063,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 338,
@@ -3050,7 +5078,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 339,
@@ -3059,7 +5093,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 340,
@@ -3068,7 +5108,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 341,
@@ -3077,7 +5123,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 342,
@@ -3086,7 +5138,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 343,
@@ -3095,7 +5153,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 344,
@@ -3104,7 +5168,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 345,
@@ -3113,7 +5183,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 346,
@@ -3122,7 +5198,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 347,
@@ -3131,7 +5213,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 348,
@@ -3140,7 +5228,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 349,
@@ -3149,7 +5243,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 350,
@@ -3158,7 +5258,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 351,
@@ -3167,7 +5273,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 352,
@@ -3176,7 +5288,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 353,
@@ -3185,7 +5303,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 354,
@@ -3194,7 +5318,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 355,
@@ -3203,7 +5333,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 356,
@@ -3212,7 +5348,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 357,
@@ -3221,7 +5363,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 358,
@@ -3230,7 +5378,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 359,
@@ -3239,7 +5393,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 360,
@@ -3248,7 +5408,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 361,
@@ -3257,7 +5423,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 362,
@@ -3266,7 +5438,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 363,
@@ -3275,7 +5453,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 364,
@@ -3284,7 +5468,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 365,
@@ -3293,7 +5483,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 366,
@@ -3302,7 +5498,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 367,
@@ -3311,7 +5513,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 368,
@@ -3320,7 +5528,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 369,
@@ -3329,7 +5543,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 370,
@@ -3338,7 +5558,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 371,
@@ -3347,7 +5573,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 372,
@@ -3356,7 +5588,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 373,
@@ -3365,7 +5603,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 374,
@@ -3374,7 +5618,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 375,
@@ -3383,7 +5633,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 376,
@@ -3392,7 +5648,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 377,
@@ -3401,7 +5663,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 378,
@@ -3410,7 +5678,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 379,
@@ -3419,7 +5693,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 380,
@@ -3428,7 +5708,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 381,
@@ -3437,7 +5723,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 382,
@@ -3446,7 +5738,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 383,
@@ -3455,7 +5753,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 384,
@@ -3464,7 +5768,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 385,
@@ -3473,7 +5783,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 386,
@@ -3482,7 +5798,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 387,
@@ -3491,7 +5813,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 388,
@@ -3500,7 +5828,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 389,
@@ -3509,7 +5843,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 390,
@@ -3518,7 +5858,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 391,
@@ -3527,7 +5873,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 392,
@@ -3536,7 +5888,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 393,
@@ -3545,7 +5903,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 394,
@@ -3554,7 +5918,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 395,
@@ -3563,7 +5933,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 396,
@@ -3572,7 +5948,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 397,
@@ -3581,7 +5963,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 398,
@@ -3590,7 +5978,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 399,
@@ -3599,7 +5993,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 400,
@@ -3608,7 +6008,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 401,
@@ -3617,7 +6023,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 402,
@@ -3626,7 +6038,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 403,
@@ -3635,7 +6053,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 404,
@@ -3644,7 +6068,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 405,
@@ -3653,7 +6083,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 406,
@@ -3662,7 +6098,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 407,
@@ -3671,7 +6113,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 408,
@@ -3680,7 +6128,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 409,
@@ -3689,7 +6143,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 410,
@@ -3698,7 +6158,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 411,
@@ -3707,7 +6173,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 412,
@@ -3716,7 +6188,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 413,
@@ -3725,7 +6203,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 414,
@@ -3734,7 +6218,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 415,
@@ -3743,7 +6233,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 416,
@@ -3752,7 +6248,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 417,
@@ -3761,7 +6263,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 418,
@@ -3770,7 +6278,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 419,
@@ -3779,7 +6293,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 420,
@@ -3788,7 +6308,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   },
   {
     "id": 421,
@@ -3797,7 +6323,13 @@ export const tempData: Product[] = [
     "rating": 90,
     "price": 120,
     "discount": 0.3,
-    "type": "T-shirt"
+    "type": "T-shirt",
+    "gallery_image": [
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg",
+      "/images/t-shirt-with-tape-details.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style."
   }
 ];
   
