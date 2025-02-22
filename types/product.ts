@@ -8,4 +8,5 @@ export interface Product {
     type: string;
     gallery_image: string[];
     description: string;
+    available_colors: string[];
 }
