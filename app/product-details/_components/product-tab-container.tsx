@@ -34,7 +34,7 @@ export default function ProductTabContainer() {
     [tabIdx]
   );
   return (
-    <div className="mt-16">
+    <div className="mt-16 flex flex-col gap-y-10">
       <header>
         <Swiper slidesPerView={3}>
           {TAB_DATA.map((tab: TabItem, i) => {
