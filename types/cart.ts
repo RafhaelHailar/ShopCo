@@ -3,6 +3,6 @@ import type { productOption } from "./product";
 export interface CartItem {
     id: number;
     productId: number;
-    productOption?: productOption;
+    productOption: productOption;
     quantity: number;
 }
