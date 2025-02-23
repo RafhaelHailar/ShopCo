@@ -105,7 +105,7 @@ export function PriceDisplay({
           </p>
           <div className="flex items-center">
             <p
-              className="bg-rose-100 text-rose-500 font-semibold text-lg flex justify-center items-center rounded-2xl py-1 px-1 lg:px-3"
+              className="bg-rose-100 text-rose-500 font-semibold text-lg flex justify-center items-center rounded-2xl py-0.5 lg:py-1 px-1 lg:px-3"
               style={{
                 fontSize: `var(--text-${option.discountTextSize})`,
                 lineHeight: `var(--tw-leading, var(--text-${option.discountTextSize}--line-height)`,

@@ -54,16 +54,16 @@ export default function Navbar() {
           </a>
         </p>
       </div>
-      <div className="py-2 lg:py-6 flex justify-between items-center container-padding bg-white">
+      <div className="py-4 lg:py-6 flex justify-between items-center container-padding bg-white">
         <div className="flex items-center gap-x-12">
-          <ul className="flex items-center gap-x-6">
+          <ul className="flex items-center gap-x-4 lg:gap-x-6">
             <li className="block xl:hidden">
-              <a href="#" className="text-3xl font-bold">
+              <a href="#" className="text-2xl lg:text-3xl font-bold">
                 <RxHamburgerMenu />
               </a>
             </li>
-            <li className="-mt-2">
-              <Link to="/" className="font-bold text-4xl">
+            <li className="-mt-1 lg:-mt-2 flex items-center">
+              <Link to="/" className="font-bold text-2xl lg:text-4xl">
                 <h2>SHOP.CO</h2>
               </Link>
               <div className="h-1"></div>
@@ -93,7 +93,7 @@ export default function Navbar() {
               placeholder="Search for products..."
             />
           </div>
-          <ul className="flex gap-x-4 text-3xl">
+          <ul className="flex gap-x-4 text-2xl lg:text-3xl">
             <li className="block lg:hidden">
               <a href="#">
                 <FiSearch />
