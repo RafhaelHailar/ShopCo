@@ -3,7 +3,7 @@ import type { Product } from "types/product";
 export const tempData: Product[] = [
   {
     "id": 0,
-    "image": "/images/t-shirt-with-tape-details.jpg",
+    "image": "/images/one-life-graphic-t-shirt-1.jpg",
     "name": "One Life Graphic T Shirt",
     "rating": 90,
     "price": 300,

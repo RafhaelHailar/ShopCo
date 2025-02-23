@@ -112,9 +112,9 @@ export function StarDisplay({
 
 export default function ProductContainer({ product }: { product: Product }) {
   return (
-    <div>
+    <div className="flex flex-col">
       <Link to={"/product/" + product.id}>
-        <div className="w-full relative flex items-center justify-center rounded-xl overflow-hidden">
+        <div className="max-h-35 lg:max-h-45 xl:max-h-80 w-full flex items-center justify-center rounded-xl overflow-hidden">
           <img src={product.image} className="w-full" />
         </div>
       </Link>
