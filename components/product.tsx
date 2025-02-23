@@ -69,11 +69,12 @@ export function PriceDisplay({
 interface StarDisplayOption {
   starSpacing?: number;
   letterStarSpacing?: number;
+  hideText?: boolean;
 }
 
 export function StarDisplay({
   rating,
-  option = { letterStarSpacing: 1, starSpacing: 0.5 },
+  option = { letterStarSpacing: 1, starSpacing: 0.5, hideText: false },
 }: {
   rating: number;
   option?: StarDisplayOption;
@@ -102,10 +103,12 @@ export function StarDisplay({
         ))}
         {haveHalfStar ? <FaStarHalf className="text-amber-400" /> : <></>}
       </div>
-      <p className="text-xs lg:text-md mt-1">
-        {convertedRating}
-        <i className="not-italic text-gray-500">/5</i>
-      </p>
+      {!option.hideText && (
+        <p className="text-xs lg:text-md mt-1">
+          {convertedRating}
+          <i className="not-italic text-gray-500">/5</i>
+        </p>
+      )}
     </div>
   );
 }

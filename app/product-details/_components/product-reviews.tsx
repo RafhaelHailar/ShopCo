@@ -13,7 +13,7 @@ function ReviewsContainer({ review }: { review: ProductReview }) {
       <div>
         <div className="flex justify-between">
           <div>
-            <StarDisplay rating={review.rating} />
+            <StarDisplay rating={review.rating} option={{ hideText: true }} />
           </div>
           <button>
             <LuEllipsis className="text-gray-500 text-2xl" />
