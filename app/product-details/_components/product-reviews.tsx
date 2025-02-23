@@ -15,7 +15,7 @@ function ReviewsContainer({ review }: { review: ProductReview }) {
           <div>
             <StarDisplay rating={review.rating} option={{ hideText: true }} />
           </div>
-          <button>
+          <button className="hidden lg:inline-block">
             <LuEllipsis className="text-gray-500 text-2xl" />
           </button>
         </div>
@@ -26,7 +26,7 @@ function ReviewsContainer({ review }: { review: ProductReview }) {
               <IoIosCheckmarkCircle className="text-xl lg:text-2xl text-green-600" />
             )}
           </div>
-          <div className="pr-15">
+          <div className="lg:pr-15">
             <p className="text-gray-500">"{review.comment}"</p>
           </div>
         </div>
@@ -59,7 +59,7 @@ function PaginatedReviews({
   const isShownAll = paginatedData.length === reviews.length;
   return (
     <div className="flex flex-col gap-y-10">
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         {paginatedData.map((review: ProductReview) => {
           return <ReviewsContainer key={review.id} review={review} />;
         })}
@@ -82,18 +82,20 @@ export default function ProductReviews() {
   return (
     <div className="flex flex-col gap-y-8">
       <header className="flex justify-between">
-        <div className="flex items-end gap-x-2">
-          <h4 className="font-bold text-2xl">All Reviews</h4>
+        <div className="flex items-center lg:items-end gap-x-1 lg:gap-x-2">
+          <h4 className="font-bold lg:text-2xl">All Reviews</h4>
           <p className="text-gray-500">(451)</p>
         </div>
-        <div className="flex gap-x-3 items-center">
+        <div className="flex gap-x-2 lg:gap-x-3 items-center">
           <div>
-            <button className="p-3 bg-gray-200 rounded-full cursor-pointer">
+            <button className="lg:text-base p-2 text-sm lg:p-3 bg-gray-200 rounded-full cursor-pointer">
               <HiOutlineAdjustmentsVertical className="text-xl font-bold" />
             </button>
           </div>
-          <DropDown items={["Latest", "Oldest"]} />
-          <button className="px-6 py-3 bg-black text-white rounded-4xl">
+          <div className="hidden lg:block h-full">
+            <DropDown items={["Latest", "Oldest"]} />
+          </div>
+          <button className="lg:px-6 px-4 py-3 lg:text-base text-sm bg-black text-white rounded-4xl">
             Write a Review
           </button>
         </div>

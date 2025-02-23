@@ -20,7 +20,7 @@ const TAB_DATA: TabItem[] = [
     Container: ProductReviews,
   },
   {
-    name: "Product Details",
+    name: "FAQs",
     Container: function () {
       return <></>;
     },
@@ -34,9 +34,16 @@ export default function ProductTabContainer() {
     [tabIdx]
   );
   return (
-    <div className="mt-16 flex flex-col gap-y-10">
-      <header>
-        <Swiper slidesPerView={3}>
+    <div className="mt-8 lg:mt-16 flex flex-col gap-y-10">
+      <header className="overflow-hidden">
+        <Swiper
+          slidesPerView={2}
+          breakpoints={{
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
+        >
           {TAB_DATA.map((tab: TabItem, i) => {
             const isActive = i === tabIdx;
             return (
@@ -46,7 +53,7 @@ export default function ProductTabContainer() {
                   onClick={() => setTabIdx(i)}
                 >
                   <div
-                    className="flex items-center text-lg justify-center border-b-2 py-3"
+                    className="flex items-center lg:text-lg justify-center border-b-2 py-3"
                     style={
                       {
                         borderColor: isActive

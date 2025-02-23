@@ -8,10 +8,10 @@ function QuantityModifier() {
   const [quantity, setQuantity] = useState<number>(1);
 
   return (
-    <div className="w-4/12">
+    <div className="w-8/12 lg:w-6/12 xl:w-4/12">
       <div className="flex items-center bg-stone-100 rounded-4xl overflow-hidden py-3">
         <button
-          className="cursor-pointer h-full pl-5 pr-2"
+          className="cursor-pointer h-full pl-5 xl:pr-2"
           onClick={() => setQuantity((q) => (q > 1 ? q - 1 : q))}
         >
           <FiMinus />
@@ -39,7 +39,7 @@ function SizeSelection({ sizes }: { sizes: string[] }) {
   return (
     <div className="flex flex-col gap-y-3">
       <h5 className="text-gray-500">Choose Size</h5>
-      <div className="flex gap-x-3">
+      <div className="flex gap-3 flex-wrap">
         {sizes.map((size, i) => {
           const isChosen = i === chosenSizeIdx;
           return (
@@ -106,8 +106,8 @@ function ProductGallery({ galleryImage }: { galleryImage: string[] }) {
   const [activeImageIdx, setActiveImageIdx] = useState<number>(0);
 
   return (
-    <div className="flex w-full gap-x-3 h-[32rem]">
-      <div className="flex flex-col h-full w-4/12 gap-y-3">
+    <div className="flex md:flex-row flex-col w-full gap-3 h-[25rem] xl:h-[32rem]">
+      <div className="md:order-1 order-2 flex flex-row md:flex-col md:h-full md:w-4/12 gap-3 h-3/12">
         {galleryImage.map((imageSrc: string, i) => {
           return (
             <button
@@ -123,7 +123,7 @@ function ProductGallery({ galleryImage }: { galleryImage: string[] }) {
           );
         })}
       </div>
-      <div className="w-full rounded-2xl overflow-hidden flex items-center">
+      <div className="md:order-2 order-1 w-full rounded-2xl overflow-hidden flex items-center">
         <img src={galleryImage[activeImageIdx]} className="w-full" />
       </div>
     </div>
@@ -136,11 +136,13 @@ export default function ProductOverview({
   productData: Product;
 }) {
   return (
-    <div className="flex gap-x-10">
+    <div className="flex gap-10 lg:flex-row flex-col">
       <ProductGallery galleryImage={productData.gallery_image} />
       <div className="w-full flex flex-col gap-y-4 justify-between">
-        <div className="flex flex-col gap-y-3">
-          <h2 className="text-4xl">{productData.name}</h2>
+        <div className="flex flex-col gap-y-1 lg:gap-y-3">
+          <h2 className="text-xl lg:text-2xl xl:text-4xl">
+            {productData.name}
+          </h2>
           <StarDisplay
             rating={productData.rating}
             option={{
@@ -165,9 +167,9 @@ export default function ProductOverview({
         <div className="h-0.5 bg-gray-100"></div>
         <SizeSelection sizes={productData.available_sizes} />
         <div className="h-0.5 bg-gray-100"></div>
-        <div className="flex gap-x-5">
+        <div className="flex gap-x-2 lg:gap-x-5">
           <QuantityModifier />
-          <div className="w-full flex gap-x-5">
+          <div className="w-full flex gap-x-1 lg:gap-x-5 text-sm lg:text-md">
             <button className="border cursor-pointer border-gray-200 rounded-4xl w-full">
               Buy Now
             </button>

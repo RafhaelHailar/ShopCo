@@ -151,7 +151,7 @@ export function StarDisplay({
       }}
     >
       <div
-        className="flex items-center text-xs lg:text-xl gap-x-0.5"
+        className="flex items-center text-md lg:text-xl gap-x-0.5"
         style={{
           columnGap: `calc(var(--spacing) * ${option.starSpacing})`,
         }}
