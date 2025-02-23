@@ -1,6 +1,53 @@
 import { FaStar, FaStarHalf } from "react-icons/fa6";
 import { Link } from "react-router";
+import { Swiper, SwiperSlide } from "swiper/react";
 import type { Product } from "types/product";
+
+interface ProductCategoryProps {
+  category: string;
+  items: Product[];
+}
+
+export function ProductCategory({ category, items }: ProductCategoryProps) {
+  return (
+    <div>
+      <div className="mb-10 lg:mb-18">
+        <h2 className="text-center text-3xl lg:text-5xl">
+          {category.toUpperCase()}
+        </h2>
+      </div>
+      <Swiper
+        spaceBetween={10}
+        slidesPerView={2}
+        breakpoints={{
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        }}
+      >
+        {items.map((item: Product, i) => {
+          return (
+            <SwiperSlide key={item.id}>
+              <ProductContainer product={item} />
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+      <div className="flex justify-center">
+        <Link to="shop">
+          <button className="w-full lg:w-auto mt-8 px-18 border border-gray-200 cursor-pointer rounded-3xl py-2 font-bold">
+            View All
+          </button>
+        </Link>
+      </div>
+    </div>
+  );
+}
 
 interface PriceDisplayOption {
   priceTextSize?: string;

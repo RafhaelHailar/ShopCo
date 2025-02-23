@@ -1,91 +1,9 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import type { Product } from "types/product";
-import ProductContainer from "components/product";
-import { Link } from "react-router";
-
-interface ProductCategoryProps {
-  category: string;
-  items: Product[];
-}
-
-function ProductCategory({ category, items }: ProductCategoryProps) {
-  return (
-    <div>
-      <div className="mb-10 lg:mb-18">
-        <h2 className="text-center text-3xl lg:text-5xl">
-          {category.toUpperCase()}
-        </h2>
-      </div>
-      <Swiper
-        spaceBetween={10}
-        slidesPerView={2}
-        breakpoints={{
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 10,
-          },
-        }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        {items.map((item: Product, i) => {
-          return (
-            <SwiperSlide key={item.id}>
-              <ProductContainer product={item} />
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-      <div className="flex justify-center">
-        <Link to="shop">
-          <button className="w-full lg:w-auto mt-8 px-18 border border-gray-200 cursor-pointer rounded-3xl py-2 font-bold">
-            View All
-          </button>
-        </Link>
-      </div>
-    </div>
-  );
-}
+import { ProductCategory } from "components/product";
+import { tempData } from "~/shop/_lib/data";
 
 export default function MarketingProductsOverview() {
-  const newArrivalsData: Product[] = [
-    {
-      id: 0,
-      image: "/images/t-shirt-with-tape-details.jpg",
-      name: "T-shirt with Tape Details",
-      rating: 60,
-      price: 120,
-      discount: 0,
-    },
-    {
-      id: 1,
-      image: "/images/t-shirt-with-tape-details.jpg",
-      name: "Skinny Fit Jeans",
-      rating: 90,
-      price: 120,
-      discount: 0.2,
-    },
-    {
-      id: 2,
-      image: "/images/t-shirt-with-tape-details.jpg",
-      name: "Checkered Shirt",
-      rating: 90,
-      price: 180,
-      discount: 0,
-    },
-    {
-      id: 3,
-      image: "/images/t-shirt-with-tape-details.jpg",
-      name: "Sleeve Striped T-shirt",
-      rating: 90,
-      price: 120,
-      discount: 0.3,
-    },
-  ];
+  const newArrivalsData: Product[] = tempData.slice(0, 4);
   return (
     <section className="container-padding">
       <div className="py-14 lg:py-24 flex flex-col gap-y-8 xl:gap-y-12">
