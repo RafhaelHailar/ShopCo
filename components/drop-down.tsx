@@ -19,7 +19,7 @@ function DropDownTrigger({
       className={
         className
           ? className
-          : "px-5 py-2 bg-gray-200 cursor-pointer rounded-4xl relative z-10"
+          : "px-5 h-full flex items-center bg-gray-200 cursor-pointer rounded-4xl relative z-10"
       }
       onClick={() => isOpenSetter((v) => !v)}
     >
@@ -100,7 +100,7 @@ export default function DropDown({
   const [selectedItemIdx, setSelectedItemIdx] = useState(active);
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="relative">
+    <div className="relative h-full">
       <DropDownTrigger
         isOpen={isOpen}
         className={triggerClassname}

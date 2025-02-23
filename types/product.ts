@@ -11,3 +11,12 @@ export interface Product {
     available_colors: string[];
     available_sizes: string[];
 }
+
+export interface ProductReview {
+    id: number;
+    name: string;
+    isVerified: boolean;
+    comment: string;
+    rating: number;
+    datePosted: string;
+}
