@@ -20,3 +20,8 @@ export interface ProductReview {
     rating: number;
     datePosted: string;
 }
+
+export interface productOption {
+    size: string;
+    color: string;
+}
