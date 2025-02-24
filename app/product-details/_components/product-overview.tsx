@@ -3,35 +3,7 @@ import { useState } from "react";
 import { IoMdCheckmark } from "react-icons/io";
 import type { Product } from "types/product";
 import { FiMinus, FiPlus } from "react-icons/fi";
-
-function QuantityModifier() {
-  const [quantity, setQuantity] = useState<number>(1);
-
-  return (
-    <div className="w-8/12 lg:w-6/12 xl:w-4/12">
-      <div className="flex items-center bg-stone-100 rounded-4xl overflow-hidden py-3">
-        <button
-          className="cursor-pointer h-full pl-5 xl:pr-2"
-          onClick={() => setQuantity((q) => (q > 1 ? q - 1 : q))}
-        >
-          <FiMinus />
-        </button>
-        <input
-          type="number"
-          disabled
-          className="text-center w-full"
-          value={quantity}
-        />
-        <button
-          className="cursor-pointer h-full pr-5"
-          onClick={() => setQuantity((q) => q + 1)}
-        >
-          <FiPlus />
-        </button>
-      </div>
-    </div>
-  );
-}
+import { QuantityModifier } from "components/transaction";
 
 function SizeSelection({ sizes }: { sizes: string[] }) {
   const [chosenSizeIdx, setChosenSizeIdx] = useState<number>(0);
@@ -168,7 +140,9 @@ export default function ProductOverview({
         <SizeSelection sizes={productData.available_sizes} />
         <div className="h-0.5 bg-gray-100"></div>
         <div className="flex gap-x-2 lg:gap-x-5">
-          <QuantityModifier />
+          <div className="w-8/12 lg:w-6/12 xl:w-4/12">
+            <QuantityModifier />
+          </div>
           <div className="w-full flex gap-x-1 lg:gap-x-5 text-sm lg:text-md">
             <button className="border cursor-pointer border-gray-200 rounded-4xl w-full">
               Buy Now
