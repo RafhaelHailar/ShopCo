@@ -2,6 +2,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
+import Input from "./input";
 
 export default function Footer() {
   return (
@@ -14,14 +15,11 @@ export default function Footer() {
             </h2>
           </div>
           <div className="w-full xl:w-2/4 flex flex-col gap-y-3">
-            <div className="bg-white flex px-5 py-2 rounded-4xl gap-x-4">
-              <TfiEmail className="text-gray-200 text-2xl" />
-              <input
-                type="text"
-                className="w-full outline-none text-sm lg:text-md"
-                placeholder="Enter your email address"
-              />
-            </div>
+            <Input
+              icon={<TfiEmail className="text-gray-500 text-xl" />}
+              className="bg-white flex px-5 py-3 rounded-4xl gap-x-4 text-sm lg:text-md"
+              placeholder="Enter your email address"
+            />
             <button className="text-sm lg:text-md bg-white w-full rounded-4xl py-2 font-bold cursor-pointer">
               Subscribe to Newsletter
             </button>

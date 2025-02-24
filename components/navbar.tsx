@@ -7,6 +7,7 @@ import type { ReactNode } from "react";
 import type { Route } from "types/route";
 import { RiArrowRightSLine } from "react-icons/ri";
 import React from "react";
+import Input from "./input";
 
 export function RouteHistoryDisplay({
   routes,
@@ -85,14 +86,11 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-x-12">
-          <div className="hidden lg:flex lg:w-96 items-center bg-gray-100 py-3 2xl:w-xl rounded-3xl px-4 gap-x-3">
-            <FiSearch className="text-gray-500 text-2xl" />
-            <input
-              type="text"
-              className="outline-none"
-              placeholder="Search for products..."
-            />
-          </div>
+          <Input
+            icon={<FiSearch className="text-gray-500 text-2xl" />}
+            className="hidden lg:flex lg:w-96 items-center bg-gray-100 py-3 2xl:w-xl rounded-3xl px-4 gap-x-3"
+            placeholder="Search for products..."
+          />
           <ul className="flex gap-x-4 text-2xl lg:text-3xl">
             <li className="block lg:hidden">
               <a href="#">

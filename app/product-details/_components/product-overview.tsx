@@ -2,7 +2,6 @@ import { StarDisplay, PriceDisplay } from "components/product";
 import { useState } from "react";
 import { IoMdCheckmark } from "react-icons/io";
 import type { Product } from "types/product";
-import { FiMinus, FiPlus } from "react-icons/fi";
 import { QuantityModifier } from "components/transaction";
 
 function SizeSelection({ sizes }: { sizes: string[] }) {
