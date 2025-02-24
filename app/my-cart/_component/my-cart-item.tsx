@@ -13,36 +13,43 @@ export default function MyCartItem({ productData, cartData }: MyCartItemProps) {
   const [quantity, setQuantity] = useState(cartData.quantity);
   return (
     <li className="flex gap-x-4">
-      <div className="overflow-hidden w-32 rounded-2xl h-30 flex items-center">
-        <img src={productData.image} className="w-full" />
+      <div className="flex items-center">
+        <div className="overflow-hidden w-28 lg:w-32 rounded-2xl h-30 flex items-center">
+          <img src={productData.image} className="w-full" />
+        </div>
       </div>
       <div className="w-full flex justify-between">
-        <div className="flex flex-col justify-between">
+        <div className="w-full flex flex-col justify-between">
           <div>
-            <h5 className="font-bold text-lg">{productData.name}</h5>
-            <p>
+            <h5 className="font-bold lg:text-lg">{productData.name}</h5>
+            <p className="text-sm">
               Size:{" "}
               <span className="text-gray-500">
                 {cartData.productOption.size}
               </span>
             </p>
-            <p>
+            <p className="text-sm">
               Color:{" "}
               <span className="text-gray-500">
                 {cartData.productOption.color}
               </span>
             </p>
           </div>
-          <p className="font-bold text-xl">${productData.price * quantity}</p>
+          <p className="font-bold sm:text-xl">
+            ${productData.price * quantity}
+          </p>
         </div>
-        <div className="flex flex-col justify-between items-end">
+        <div className="flex flex-col justify-between items-end w-2/12 lg:w-full relative">
           <div>
             <button className="cursor-pointer">
               <PiTrashFill className="text-red-500 text-2xl" />
             </button>
           </div>
-          <div className="w-6/12">
-            <QuantityModifier onChangeEvent={(q) => setQuantity(q)} />
+          <div className="w-[7rem] xl:w-6/12 absolute lg:static bottom-0 right-0">
+            <QuantityModifier
+              onChangeEvent={(q) => setQuantity(q)}
+              className="py-1"
+            />
           </div>
         </div>
       </div>

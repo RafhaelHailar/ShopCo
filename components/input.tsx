@@ -16,7 +16,11 @@ export default function Input({ className, icon, placeholder }: InputProps) {
       )}
     >
       {icon && icon}
-      <input type="text" className="outline-none" placeholder={placeholder} />
+      <input
+        type="text"
+        className="outline-none w-full"
+        placeholder={placeholder}
+      />
     </div>
   );
 }

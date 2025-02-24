@@ -1,12 +1,15 @@
 import { useEffect, useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
+import { twMerge } from "tailwind-merge";
 
 interface QuantityModifierProps {
   onChangeEvent?: (quantity: number) => void;
+  className?: string;
 }
 
 export function QuantityModifier({
   onChangeEvent = () => null,
+  className,
 }: QuantityModifierProps) {
   const [quantity, setQuantity] = useState<number>(1);
 
@@ -16,9 +19,14 @@ export function QuantityModifier({
 
   return (
     <div>
-      <div className="flex items-center bg-stone-100 rounded-4xl overflow-hidden py-3">
+      <div
+        className={twMerge(
+          "flex items-center bg-stone-100 rounded-4xl overflow-hidden py-3",
+          className
+        )}
+      >
         <button
-          className="cursor-pointer h-full pl-5 xl:pr-2"
+          className="cursor-pointer h-full pl-5 lg:pr-2"
           onClick={() => setQuantity((q) => (q > 1 ? q - 1 : q))}
         >
           <FiMinus />
