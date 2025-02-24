@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function MarketingHeader() {
   return (
-    <section className="bg-stone-100">
+    <section className="bg-[#F0F0F0]">
       <div>
         <div className="flex flex-wrap 2xl:flex-nowrap">
           <div className="container-padding xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
@@ -54,8 +54,21 @@ export default function MarketingHeader() {
               </div>
             </div>
           </div>
-          <div className="w-full flex min-h-[800px] 2xl:min-h-0">
-            <div className="w-full bg-gray-500 h-full"></div>
+          <div className="w-full h-[400px] lg:h-[700px] overflow-hidden">
+            <div className="relative">
+              <img
+                src="/images/four-pointed-star.svg"
+                className="absolute end-8 lg:end-25 top-10 lg:top-25 w-18 lg:w-auto"
+              />
+              <img
+                src="/images/four-pointed-star.svg"
+                className="absolute left-10 lg:left-25 2xl:left-0 top-45 lg:top-85 w-10 lg:w-14"
+              />
+              <img
+                src="/images/header-image.jpg"
+                className="w-full -mt-10 xl:-ml-10"
+              />
+            </div>
           </div>
         </div>
       </div>

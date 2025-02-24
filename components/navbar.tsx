@@ -98,9 +98,9 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <Link to="/cart">
                 <PiShoppingCartSimpleBold />
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#">
