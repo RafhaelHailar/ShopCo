@@ -30,7 +30,7 @@ export default function MyCartSummary({
 
   total = subtotalWithDiscount + deliveryFee;
   discount = subtotalWithoutDiscount
-    ? subtotalWithDiscount / subtotalWithoutDiscount
+    ? 1 - subtotalWithDiscount / subtotalWithoutDiscount
     : 0;
 
   return (
@@ -47,7 +47,7 @@ export default function MyCartSummary({
               Discount(-{(discount * 100).toFixed(1)}%)
             </p>
             <p className="font-bold text-xl text-red-500">
-              -${subtotalWithDiscount}
+              -${discount * subtotalWithoutDiscount}
             </p>
           </li>
           <li className="flex justify-between">
