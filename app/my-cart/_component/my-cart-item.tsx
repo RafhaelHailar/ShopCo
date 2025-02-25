@@ -45,10 +45,10 @@ export default function MyCartItem({ productData, cartData }: MyCartItemProps) {
               <PiTrashFill className="text-red-500 text-2xl" />
             </button>
           </div>
-          <div className="w-[7rem] xl:w-6/12 absolute lg:static bottom-0 right-0">
+          <div className="w-[6rem] xl:w-6/12 absolute lg:static bottom-0 right-0">
             <QuantityModifier
               onChangeEvent={(q) => setQuantity(q)}
-              className="py-1"
+              className="py-1 text-sm lg:text-base"
             />
           </div>
         </div>

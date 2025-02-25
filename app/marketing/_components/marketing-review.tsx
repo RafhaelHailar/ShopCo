@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 import { ScreenContext } from "components/screen-context";
@@ -155,6 +156,8 @@ export default function MarketingReview() {
         loop={true}
         spaceBetween={10}
         slidesPerView={1}
+        autoplay={true}
+        modules={[Autoplay]}
         onSlideChange={() => {
           setSWW(Math.random());
         }}
