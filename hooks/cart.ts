@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { CartItem } from "types/cart";
 import type { ProductOption } from "types/product";
 
@@ -56,25 +56,47 @@ function add({ productId, quantity = 1, productOption }: AddItemArgs) {
     localStorage.setItem(CartLSKey, JSON.stringify(cartItems));
 }
 
+function remove(id: number) {
+    const cartItems = get();
+
+    let itemIdx = null;
+    
+    for (let i = 0; i < cartItems.length; i++) {
+        if (id === cartItems[i].id) {
+            itemIdx = i;
+            break;
+        }
+    }
+
+    if (itemIdx != null) { cartItems.splice(itemIdx,1) }
+
+    localStorage.setItem(CartLSKey, JSON.stringify(cartItems));
+}
+
 interface CartHookMethods {
     add: (arg0: AddItemArgs) => void;
     get: () => CartItem[];
+    remove: (id: number) => void;
 }
 
 export default function useCart() {
     const [methods, setMethods] = useState<CartHookMethods>({
         get: () => [],
-        add: () => {}
+        add: () => {},
+        remove: () => {}
     });
 
     useEffect(() => {
         if (localStorage) {
             setMethods({
                 add,
-                get
+                get,
+                remove
             });
         }
     }, []);
 
-    return methods;
+    const hookMethods = useMemo(() => methods, [methods]);
+    
+    return hookMethods;
 }

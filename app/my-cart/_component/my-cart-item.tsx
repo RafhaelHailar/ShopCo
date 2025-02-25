@@ -2,16 +2,24 @@ import { QuantityModifier } from "components/transaction";
 import type { CartItem } from "types/cart";
 import type { Product } from "types/product";
 import { PiTrashFill } from "react-icons/pi";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GetColorName } from "hex-color-to-color-name";
+import useCart from "hooks/cart";
 
 interface MyCartItemProps {
+  rerenderCart: () => void;
   productData: Product;
   cartData: CartItem;
 }
 
-export default function MyCartItem({ productData, cartData }: MyCartItemProps) {
+export default function MyCartItem({
+  rerenderCart,
+  productData,
+  cartData,
+}: MyCartItemProps) {
+  const cart = useCart();
   const [quantity, setQuantity] = useState(cartData.quantity);
+
   return (
     <li className="flex gap-x-4">
       <div className="flex items-center">
@@ -42,7 +50,13 @@ export default function MyCartItem({ productData, cartData }: MyCartItemProps) {
         </div>
         <div className="flex flex-col justify-between items-end w-2/12 lg:w-full relative">
           <div>
-            <button className="cursor-pointer">
+            <button
+              className="cursor-pointer"
+              onClick={() => {
+                cart.remove(cartData.id);
+                rerenderCart();
+              }}
+            >
               <PiTrashFill className="text-red-500 text-2xl" />
             </button>
           </div>

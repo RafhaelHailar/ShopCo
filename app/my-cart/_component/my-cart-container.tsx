@@ -1,7 +1,7 @@
 import type { CartItem } from "types/cart";
 import MyCartItem from "./my-cart-item";
 import { tempData } from "~/shop/_lib/data";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import MyCartSummary from "./my-cart-summary";
 import useCart from "hooks/cart";
 
@@ -9,6 +9,12 @@ export default function MyCartContainer() {
   const cart = useCart();
   const productData = tempData;
   const cartItemsData = cart.get();
+
+  // use for updating the cart container
+  // I don't know what's the best way to rerender the cart,
+  // when we remove an item in cart using this cart hook setup.
+  const [_, setToRerender] = useState<number>(-1);
+
   return (
     <div>
       <h2 className="text-4xl lg:text-5xl">YOUR CART</h2>
@@ -19,6 +25,7 @@ export default function MyCartContainer() {
               return (
                 <React.Fragment key={i}>
                   <MyCartItem
+                    rerenderCart={() => setToRerender((v) => v * -1)}
                     productData={productData[item.productId]}
                     cartData={item}
                   />
