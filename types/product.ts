@@ -21,7 +21,7 @@ export interface ProductReview {
     datePosted: string;
 }
 
-export interface productOption {
+export interface ProductOption {
     size: string;
     color: string;
 }
