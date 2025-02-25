@@ -56,6 +56,30 @@ function add({ productId, quantity = 1, productOption }: AddItemArgs) {
     localStorage.setItem(CartLSKey, JSON.stringify(cartItems));
 }
 
+interface SubItemArgs{ 
+    id: number;
+    quantity?: number;
+}
+
+function sub({ id, quantity = 1}: SubItemArgs) {
+    const cartItems = get();
+
+    let itemIdx = null;
+    
+    for (let i = 0; i < cartItems.length; i++) {
+        if (id === cartItems[i].id) {
+            itemIdx = i;
+            break;
+        }
+    }
+    
+    if (itemIdx != null) { 
+        cartItems[itemIdx].quantity -= quantity;
+     }
+
+    localStorage.setItem(CartLSKey, JSON.stringify(cartItems));
+}
+
 function remove(id: number) {
     const cartItems = get();
 
@@ -75,6 +99,7 @@ function remove(id: number) {
 
 interface CartHookMethods {
     add: (arg0: AddItemArgs) => void;
+    sub: (arg0: SubItemArgs) => void;
     get: () => CartItem[];
     remove: (id: number) => void;
 }
@@ -83,6 +108,7 @@ export default function useCart() {
     const [methods, setMethods] = useState<CartHookMethods>({
         get: () => [],
         add: () => {},
+        sub: () => {},
         remove: () => {}
     });
 
@@ -91,7 +117,8 @@ export default function useCart() {
             setMethods({
                 add,
                 get,
-                remove
+                sub,
+                remove,
             });
         }
     }, []);

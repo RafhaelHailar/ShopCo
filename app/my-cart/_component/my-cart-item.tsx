@@ -62,7 +62,18 @@ export default function MyCartItem({
           </div>
           <div className="w-[6rem] xl:w-6/12 absolute lg:static bottom-0 right-0">
             <QuantityModifier
-              onChangeEvent={(q) => setQuantity(q)}
+              initialValue={quantity}
+              onChangeEvent={(q) => {
+                if (q < quantity) cart.sub({ id: cartData.id });
+                else
+                  cart.add({
+                    productId: cartData.productId,
+                    productOption: cartData.productOption,
+                  });
+
+                rerenderCart();
+                setQuantity(q);
+              }}
               className="py-1 text-sm lg:text-base"
             />
           </div>

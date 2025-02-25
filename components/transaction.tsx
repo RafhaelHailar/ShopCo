@@ -3,15 +3,17 @@ import { FiMinus, FiPlus } from "react-icons/fi";
 import { twMerge } from "tailwind-merge";
 
 interface QuantityModifierProps {
+  initialValue?: number;
   onChangeEvent?: (quantity: number) => void;
   className?: string;
 }
 
 export function QuantityModifier({
+  initialValue = 1,
   onChangeEvent = () => null,
   className,
 }: QuantityModifierProps) {
-  const [quantity, setQuantity] = useState<number>(1);
+  const [quantity, setQuantity] = useState<number>(initialValue);
 
   useEffect(() => {
     onChangeEvent(quantity);
