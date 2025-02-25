@@ -23,7 +23,7 @@ function get(): CartItem[] {
 
 function add({ productId, quantity = 1, productOption }: { productId: number, quantity?: number, productOption: ProductOption}) {
     const cartItems = get();
-    
+
     let similarItemIdx = null;
     for (let i = 0;i < cartItems.length; i++) {
         if (cartItems[i].productId === productId) {
@@ -32,17 +32,20 @@ function add({ productId, quantity = 1, productOption }: { productId: number, qu
         }
     }
 
-    if (similarItemIdx) {
+    if (similarItemIdx != null) {
         cartItems[similarItemIdx].quantity += quantity;
     } else {
         const lastCartItem = cartItems[cartItems.length - 1];
         cartItems.push({
             id: lastCartItem ? lastCartItem.id + 1 : 0,
             productId: productId,
-            quantity: quantity,
+            quantity,
             productOption: productOption
-        })
+        });
+
     }
+
+    localStorage.setItem(CartLSKey, JSON.stringify(cartItems));
 }
 
 

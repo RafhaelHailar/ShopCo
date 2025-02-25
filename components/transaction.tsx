@@ -28,18 +28,21 @@ export function QuantityModifier({
         <button
           className="cursor-pointer h-full pl-5 lg:pr-2"
           onClick={() => setQuantity((q) => (q > 1 ? q - 1 : q))}
+          type="button"
         >
           <FiMinus />
         </button>
         <input
           type="number"
-          disabled
+          name="quantity"
+          readOnly
           className="text-center w-full"
           value={quantity}
         />
         <button
           className="cursor-pointer h-full pr-5"
           onClick={() => setQuantity((q) => q + 1)}
+          type="button"
         >
           <FiPlus />
         </button>
