@@ -49,10 +49,26 @@ export default function Navbar() {
     <nav>
       <div className="bg-black text-white text-center w-full">
         <p className="text-sm font-light py-2">
-          Sign up and get 20% off to your first order.&nbsp;
+          I don’t own the design or images on this website. They come from this
+          Figma design:{" "}
+          <a
+            href="https://www.figma.com/design/s3LPDyyDxujxfz0vJJL8Du/E-commerce-Website-Template-(Freebie)-(Community)?node-id=39-1402&p=f&t=rehnLUmgsrToND9D-0"
+            className="underline underline-offset-4"
+          >
+            Figma
+          </a>
+          . Copyright belongs to{" "}
+          <a
+            href="mailto:hamzanaeem778@gmail.com"
+            className="underline underline-offset-4"
+          >
+            hamzanaeem778@gmail.com
+          </a>
+          .
+          {/* Sign up and get 20% off to your first order.&nbsp;
           <a href="#" className="underline underline-offset-4">
             Sign Up Now
-          </a>
+          </a> */}
         </p>
       </div>
       <div className="py-4 lg:py-6 flex justify-between items-center container-padding bg-white">
