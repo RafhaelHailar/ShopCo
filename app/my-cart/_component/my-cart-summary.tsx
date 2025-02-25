@@ -29,7 +29,9 @@ export default function MyCartSummary({
   }
 
   total = subtotalWithDiscount + deliveryFee;
-  discount = subtotalWithDiscount / subtotalWithoutDiscount;
+  discount = subtotalWithoutDiscount
+    ? subtotalWithDiscount / subtotalWithoutDiscount
+    : 0;
 
   return (
     <div className="border border-gray-200 rounded-2xl px-5 pt-4 pb-10">
