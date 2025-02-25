@@ -1,8 +1,36 @@
 import Input from "components/input";
 import { PiTag } from "react-icons/pi";
 import { FaArrowRight } from "react-icons/fa6";
+import type { Product } from "types/product";
+import type { CartItem } from "types/cart";
 
-export default function MyCartSummary() {
+interface MyCartSummaryProps {
+  productData: Product[];
+  cartDatas: CartItem[];
+}
+
+export default function MyCartSummary({
+  productData,
+  cartDatas,
+}: MyCartSummaryProps) {
+  let subtotalWithoutDiscount = 0;
+  let subtotalWithDiscount = 0;
+  let discount = 0;
+  let deliveryFee = 15;
+  let total = 15;
+
+  for (let i = 0; i < cartDatas.length; i++) {
+    const data = cartDatas[i];
+    const product = productData[data.productId];
+
+    subtotalWithoutDiscount += product.price * data.quantity;
+    subtotalWithDiscount +=
+      (product.price - product.price * product.discount) * data.quantity;
+  }
+
+  total = subtotalWithDiscount + deliveryFee;
+  discount = subtotalWithDiscount / subtotalWithoutDiscount;
+
   return (
     <div className="border border-gray-200 rounded-2xl px-5 pt-4 pb-10">
       <div className="flex flex-col gap-y-6">
@@ -10,22 +38,26 @@ export default function MyCartSummary() {
         <ul className="flex flex-col gap-y-4">
           <li className="flex justify-between">
             <p className="text-lg text-gray-500">Subtotal</p>
-            <p className="font-bold text-xl">$565</p>
+            <p className="font-bold text-xl">${subtotalWithoutDiscount}</p>
           </li>
           <li className="flex justify-between">
-            <p className="text-lg text-gray-500">Discount(-20%)</p>
-            <p className="font-bold text-xl text-red-500">-$113</p>
+            <p className="text-lg text-gray-500">
+              Discount(-{(discount * 100).toFixed(1)}%)
+            </p>
+            <p className="font-bold text-xl text-red-500">
+              -${subtotalWithDiscount}
+            </p>
           </li>
           <li className="flex justify-between">
             <p className="text-lg text-gray-500">Delivery Fee</p>
-            <p className="font-bold text-xl">$15</p>
+            <p className="font-bold text-xl">${deliveryFee}</p>
           </li>
           <li className="">
             <div className="bg-gray-100 h-0.5"></div>
           </li>
           <li className="flex justify-between">
             <p className="text-lg">Total</p>
-            <p className="font-bold text-xl">$467</p>
+            <p className="font-bold text-xl">${total}</p>
           </li>
         </ul>
         <div className="flex flex-col gap-y-6">

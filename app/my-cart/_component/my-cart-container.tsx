@@ -40,7 +40,7 @@ export default function MyCartContainer() {
           </ul>
         </div>
         <div className="lg:w-10/12">
-          <MyCartSummary />
+          <MyCartSummary productData={productData} cartDatas={cartItemsData} />
         </div>
       </div>
     </div>
