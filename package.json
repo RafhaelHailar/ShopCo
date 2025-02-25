@@ -13,6 +13,7 @@
     "@react-router/serve": "^7.1.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "hex-color-to-color-name": "^1.0.2",
     "isbot": "^5.1.17",
     "lucide-react": "^0.475.0",
     "react": "^19.0.0",

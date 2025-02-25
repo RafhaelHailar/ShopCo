@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import type { CartItem } from "types/cart";
 import type { ProductOption } from "types/product";
 
@@ -21,7 +22,13 @@ function get(): CartItem[] {
     return [];
 }
 
-function add({ productId, quantity = 1, productOption }: { productId: number, quantity?: number, productOption: ProductOption}) {
+interface AddItemArgs { 
+    productId: number; 
+    quantity?: number;
+    productOption: ProductOption;
+};
+
+function add({ productId, quantity = 1, productOption }: AddItemArgs) {
     const cartItems = get();
 
     let similarItemIdx = null;
@@ -49,10 +56,25 @@ function add({ productId, quantity = 1, productOption }: { productId: number, qu
     localStorage.setItem(CartLSKey, JSON.stringify(cartItems));
 }
 
+interface CartHookMethods {
+    add: (arg0: AddItemArgs) => void;
+    get: () => CartItem[];
+}
 
 export default function useCart() {
-    return {
-        add,
-        get
-    }
+    const [methods, setMethods] = useState<CartHookMethods>({
+        get: () => [],
+        add: () => {}
+    });
+
+    useEffect(() => {
+        if (localStorage) {
+            setMethods({
+                add,
+                get
+            });
+        }
+    }, []);
+
+    return methods;
 }

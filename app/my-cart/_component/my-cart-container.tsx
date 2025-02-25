@@ -1,13 +1,14 @@
 import type { CartItem } from "types/cart";
-import { dummyCart } from "../_lib/data";
 import MyCartItem from "./my-cart-item";
 import { tempData } from "~/shop/_lib/data";
 import React from "react";
 import MyCartSummary from "./my-cart-summary";
+import useCart from "hooks/cart";
 
 export default function MyCartContainer() {
+  const cart = useCart();
   const productData = tempData;
-  const cartItemsData = dummyCart;
+  const cartItemsData = cart.get();
   return (
     <div>
       <h2 className="text-4xl lg:text-5xl">YOUR CART</h2>

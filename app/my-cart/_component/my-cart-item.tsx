@@ -3,6 +3,7 @@ import type { CartItem } from "types/cart";
 import type { Product } from "types/product";
 import { PiTrashFill } from "react-icons/pi";
 import { useState } from "react";
+import { GetColorName } from "hex-color-to-color-name";
 
 interface MyCartItemProps {
   productData: Product;
@@ -31,7 +32,7 @@ export default function MyCartItem({ productData, cartData }: MyCartItemProps) {
             <p className="text-sm">
               Color:{" "}
               <span className="text-gray-500">
-                {cartData.productOption.color}
+                {GetColorName(cartData.productOption.color.slice(1))}
               </span>
             </p>
           </div>
