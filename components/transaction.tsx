@@ -36,7 +36,7 @@ export function QuantityModifier({
           type="number"
           name="quantity"
           readOnly
-          className="text-center w-full"
+          className="text-center w-full outline-none"
           value={quantity}
         />
         <button

@@ -26,7 +26,8 @@ function add({ productId, quantity = 1, productOption }: { productId: number, qu
 
     let similarItemIdx = null;
     for (let i = 0;i < cartItems.length; i++) {
-        if (cartItems[i].productId === productId) {
+        const cartItem = cartItems[i];
+        if (cartItem.productId === productId && (cartItem.productOption && cartItem.productOption.color === productOption.color && cartItem.productOption.size === productOption.size)) {
             similarItemIdx = i;
             break;
         }
