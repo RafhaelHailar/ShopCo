@@ -5,7 +5,7 @@ export default function MarketingHeader() {
     <section className="bg-[#F0F0F0]">
       <div>
         <div className="flex flex-wrap 2xl:flex-nowrap">
-          <div className="container-padding xl:px-0 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
+          <div className="px-6 lg:pl-24 xl:max-w-[800px] w-full flex flex-col gap-y-6 pt-8 lg:pt-18 pb-26">
             <h1 className="text-4xl lg:text-6xl lg:max-w-[600px]">
               FIND CLOTHES THAT MATCHES YOUR STYLE
             </h1>
@@ -25,7 +25,7 @@ export default function MarketingHeader() {
               <div className="flex items-center justify-center">
                 <div>
                   <h3 className="text-xl lg:text-4xl font-bold">200+</h3>
-                  <p className="text-xs lg:text-md text-gray-500">
+                  <p className="text-xs lg:text-base text-gray-500">
                     International Brands
                   </p>
                 </div>
@@ -36,7 +36,7 @@ export default function MarketingHeader() {
               <div className="flex items-center">
                 <div>
                   <h3 className="text-xl lg:text-4xl font-bold">2,000 +</h3>
-                  <p className="text-xs lg:text-md text-gray-500">
+                  <p className="text-xs lg:text-base text-gray-500">
                     High-Quality Products
                   </p>
                 </div>
@@ -47,7 +47,7 @@ export default function MarketingHeader() {
               <div className="flex items-center">
                 <div>
                   <h3 className="text-xl lg:text-4xl font-bold">30,000 +</h3>
-                  <p className="text-xs lg:text-md text-gray-500">
+                  <p className="text-xs lg:text-base text-gray-500">
                     Happy Customers
                   </p>
                 </div>
