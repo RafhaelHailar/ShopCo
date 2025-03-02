@@ -47,7 +47,7 @@ export default function MyCartSummary({
               Discount(-{(discount * 100).toFixed(1)}%)
             </p>
             <p className="font-bold text-xl text-red-500">
-              -${discount * subtotalWithoutDiscount}
+              -${(discount * subtotalWithoutDiscount).toFixed(1)}
             </p>
           </li>
           <li className="flex justify-between">
